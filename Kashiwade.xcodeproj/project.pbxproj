@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC3AA40A1BB66B8200B6A692 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3AA4091BB66B8200B6A692 /* Foundation.framework */; };
+		BC3AA40C1BB66B8200B6A692 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3AA40B1BB66B8200B6A692 /* CoreGraphics.framework */; };
+		BC3AA40E1BB66B8200B6A692 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3AA40D1BB66B8200B6A692 /* UIKit.framework */; };
+		BC3AA4141BB66B8200B6A692 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC3AA4121BB66B8200B6A692 /* InfoPlist.strings */; };
+		BC3AA4161BB66B8200B6A692 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3AA4151BB66B8200B6A692 /* main.m */; };
+		BC3AA4221BB66B8200B6A692 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC3AA4211BB66B8200B6A692 /* Images.xcassets */; };
+		BC3AA4291BB66B8200B6A692 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3AA4281BB66B8200B6A692 /* XCTest.framework */; };
+		BC3AA42A1BB66B8200B6A692 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3AA4091BB66B8200B6A692 /* Foundation.framework */; };
+		BC3AA42B1BB66B8200B6A692 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3AA40D1BB66B8200B6A692 /* UIKit.framework */; };
+		BC3AA4331BB66B8200B6A692 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC3AA4311BB66B8200B6A692 /* InfoPlist.strings */; };
+		BC3AA4351BB66B8200B6A692 /* KashiwadeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3AA4341BB66B8200B6A692 /* KashiwadeTests.m */; };
+		BC3AA4431BB66C3000B6A692 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3AA4401BB66C3000B6A692 /* AppDelegate.m */; };
+		BC3AA4441BB66C3000B6A692 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3AA4421BB66C3000B6A692 /* ViewController.m */; };
+		BC89D6C11BB66DC9005A8303 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC89D6BF1BB66DC9005A8303 /* AudioToolbox.framework */; };
+		BC89D6C21BB66DC9005A8303 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC89D6C01BB66DC9005A8303 /* AVFoundation.framework */; };
+		BC89D6C41BB66E1E005A8303 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC89D6C31BB66E1E005A8303 /* Accelerate.framework */; };
+		BC89D6C61BB66E39005A8303 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC89D6C51BB66E39005A8303 /* QuartzCore.framework */; };
+		BCF1849C1BBBEFC90027AD2E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF1849B1BBBEFC90027AD2E /* MapKit.framework */; };
+		BCF1849E1BBC1EAC0027AD2E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF1849D1BBC1EAC0027AD2E /* CoreLocation.framework */; };
+		BCF184A41BBC27590027AD2E /* CustomAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF184A31BBC27590027AD2E /* CustomAnnotation.m */; };
+		BCF184AC1BBC5F790027AD2E /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF184AB1BBC5F790027AD2E /* PlayViewController.m */; };
+		BCF184B81BBC61480027AD2E /* map_pin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCF184B31BBC61480027AD2E /* map_pin@2x.png */; };
+		BCF184D11BBC692C0027AD2E /* carpool.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCF184CD1BBC692C0027AD2E /* carpool.jpg */; };
+		BCF184D21BBC692C0027AD2E /* pokemon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCF184CE1BBC692C0027AD2E /* pokemon.jpg */; };
+		BCF184D31BBC692C0027AD2E /* rooftop.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BCF184CF1BBC692C0027AD2E /* rooftop.jpeg */; };
+		BCF184D41BBC692C0027AD2E /* tokyoBigSiteBasement.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCF184D01BBC692C0027AD2E /* tokyoBigSiteBasement.jpg */; };
+		BCF184E31BBCCC2A0027AD2E /* libAudioKit iOS Static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF184DC1BBCCA970027AD2E /* libAudioKit iOS Static.a */; };
+		BCF184E71BBCD0C10027AD2E /* ConvolutionInstrument.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF184E61BBCD0C10027AD2E /* ConvolutionInstrument.m */; };
+		BCF184F51BBCD2050027AD2E /* bktk-shinjuku-01_03may09_44116mono.wav in Resources */ = {isa = PBXBuildFile; fileRef = BCF184E91BBCD2050027AD2E /* bktk-shinjuku-01_03may09_44116mono.wav */; };
+		BCF184F61BBCD2050027AD2E /* carpool_IR-9_L.wav in Resources */ = {isa = PBXBuildFile; fileRef = BCF184EA1BBCD2050027AD2E /* carpool_IR-9_L.wav */; };
+		BCF184F71BBCD2050027AD2E /* carpool_IR-9_R.wav in Resources */ = {isa = PBXBuildFile; fileRef = BCF184EB1BBCD2050027AD2E /* carpool_IR-9_R.wav */; };
+		BCF184F81BBCD2050027AD2E /* carpool_SE-9.wav in Resources */ = {isa = PBXBuildFile; fileRef = BCF184EC1BBCD2050027AD2E /* carpool_SE-9.wav */; };
+		BCF184F91BBCD2050027AD2E /* pokemon _IR-9_L.wav in Resources */ = {isa = PBXBuildFile; fileRef = BCF184ED1BBCD2050027AD2E /* pokemon _IR-9_L.wav */; };
+		BCF184FA1BBCD2050027AD2E /* pokemon _IR-9_R.wav in Resources */ = {isa = PBXBuildFile; fileRef = BCF184EE1BBCD2050027AD2E /* pokemon _IR-9_R.wav */; };
+		BCF184FB1BBCD2050027AD2E /* pokemon_SE-9.wav in Resources */ = {isa = PBXBuildFile; fileRef = BCF184EF1BBCD2050027AD2E /* pokemon_SE-9.wav */; };
+		BCF184FC1BBCD2050027AD2E /* rooftop_IR-9_L.wav in Resources */ = {isa = PBXBuildFile; fileRef = BCF184F01BBCD2050027AD2E /* rooftop_IR-9_L.wav */; };
+		BCF184FD1BBCD2050027AD2E /* rooftop_IR-9_R.wav in Resources */ = {isa = PBXBuildFile; fileRef = BCF184F11BBCD2050027AD2E /* rooftop_IR-9_R.wav */; };
+		BCF184FE1BBCD2050027AD2E /* rooftop_SE-9.wav in Resources */ = {isa = PBXBuildFile; fileRef = BCF184F21BBCD2050027AD2E /* rooftop_SE-9.wav */; };
+		BCF184FF1BBCD2050027AD2E /* TokyoBigSite_IR-9_L.wav in Resources */ = {isa = PBXBuildFile; fileRef = BCF184F31BBCD2050027AD2E /* TokyoBigSite_IR-9_L.wav */; };
+		BCF185001BBCD2050027AD2E /* TokyoBigSite_IR-9_R.wav in Resources */ = {isa = PBXBuildFile; fileRef = BCF184F41BBCD2050027AD2E /* TokyoBigSite_IR-9_R.wav */; };
+		BCF185021BBCE1580027AD2E /* AudioKit.plist in Resources */ = {isa = PBXBuildFile; fileRef = BCF185011BBCE1580027AD2E /* AudioKit.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC3AA42C1BB66B8200B6A692 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC3AA3FE1BB66B8200B6A692 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC3AA4051BB66B8200B6A692;
+			remoteInfo = Kashiwade;
+		};
+		BCF184DB1BBCCA970027AD2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCF184D51BBCCA960027AD2E /* AudioKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EA8E93D81AD3C5240057E979;
+			remoteInfo = "AudioKit iOS Static";
+		};
+		BCF184DD1BBCCA970027AD2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCF184D51BBCCA960027AD2E /* AudioKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EAA0F5941AE71C8F007CD7C9;
+			remoteInfo = "AudioKit iOS Dynamic";
+		};
+		BCF184DF1BBCCA970027AD2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCF184D51BBCCA960027AD2E /* AudioKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EA8E96591AD3C6FC0057E979;
+			remoteInfo = "AudioKit OS X";
+		};
+		BCF184E11BBCCAAF0027AD2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCF184D51BBCCA960027AD2E /* AudioKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = EA8E93D71AD3C5240057E979;
+			remoteInfo = "AudioKit iOS Static";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC3AA4061BB66B8200B6A692 /* Kashiwade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kashiwade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC3AA4091BB66B8200B6A692 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BC3AA40B1BB66B8200B6A692 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BC3AA40D1BB66B8200B6A692 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BC3AA4111BB66B8200B6A692 /* Kashiwade-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kashiwade-Info.plist"; sourceTree = "<group>"; };
+		BC3AA4131BB66B8200B6A692 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC3AA4151BB66B8200B6A692 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC3AA4171BB66B8200B6A692 /* Kashiwade-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kashiwade-Prefix.pch"; sourceTree = "<group>"; };
+		BC3AA4211BB66B8200B6A692 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BC3AA4271BB66B8200B6A692 /* KashiwadeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KashiwadeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC3AA4281BB66B8200B6A692 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BC3AA4301BB66B8200B6A692 /* KashiwadeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KashiwadeTests-Info.plist"; sourceTree = "<group>"; };
+		BC3AA4321BB66B8200B6A692 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC3AA4341BB66B8200B6A692 /* KashiwadeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KashiwadeTests.m; sourceTree = "<group>"; };
+		BC3AA43F1BB66C3000B6A692 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC3AA4401BB66C3000B6A692 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC3AA4411BB66C3000B6A692 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC3AA4421BB66C3000B6A692 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC89D6BF1BB66DC9005A8303 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BC89D6C01BB66DC9005A8303 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BC89D6C31BB66E1E005A8303 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		BC89D6C51BB66E39005A8303 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BCF1849B1BBBEFC90027AD2E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BCF1849D1BBC1EAC0027AD2E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BCF184A21BBC27590027AD2E /* CustomAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotation.h; sourceTree = "<group>"; };
+		BCF184A31BBC27590027AD2E /* CustomAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotation.m; sourceTree = "<group>"; };
+		BCF184AA1BBC5F790027AD2E /* PlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
+		BCF184AB1BBC5F790027AD2E /* PlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
+		BCF184B31BBC61480027AD2E /* map_pin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pin@2x.png"; sourceTree = "<group>"; };
+		BCF184CD1BBC692C0027AD2E /* carpool.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carpool.jpg; sourceTree = "<group>"; };
+		BCF184CE1BBC692C0027AD2E /* pokemon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pokemon.jpg; sourceTree = "<group>"; };
+		BCF184CF1BBC692C0027AD2E /* rooftop.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rooftop.jpeg; sourceTree = "<group>"; };
+		BCF184D01BBC692C0027AD2E /* tokyoBigSiteBasement.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokyoBigSiteBasement.jpg; sourceTree = "<group>"; };
+		BCF184D51BBCCA960027AD2E /* AudioKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = AudioKit.xcodeproj; sourceTree = "<group>"; };
+		BCF184E51BBCD0C10027AD2E /* ConvolutionInstrument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConvolutionInstrument.h; sourceTree = "<group>"; };
+		BCF184E61BBCD0C10027AD2E /* ConvolutionInstrument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConvolutionInstrument.m; sourceTree = "<group>"; };
+		BCF184E91BBCD2050027AD2E /* bktk-shinjuku-01_03may09_44116mono.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "bktk-shinjuku-01_03may09_44116mono.wav"; sourceTree = "<group>"; };
+		BCF184EA1BBCD2050027AD2E /* carpool_IR-9_L.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "carpool_IR-9_L.wav"; sourceTree = "<group>"; };
+		BCF184EB1BBCD2050027AD2E /* carpool_IR-9_R.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "carpool_IR-9_R.wav"; sourceTree = "<group>"; };
+		BCF184EC1BBCD2050027AD2E /* carpool_SE-9.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "carpool_SE-9.wav"; sourceTree = "<group>"; };
+		BCF184ED1BBCD2050027AD2E /* pokemon _IR-9_L.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "pokemon _IR-9_L.wav"; sourceTree = "<group>"; };
+		BCF184EE1BBCD2050027AD2E /* pokemon _IR-9_R.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "pokemon _IR-9_R.wav"; sourceTree = "<group>"; };
+		BCF184EF1BBCD2050027AD2E /* pokemon_SE-9.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "pokemon_SE-9.wav"; sourceTree = "<group>"; };
+		BCF184F01BBCD2050027AD2E /* rooftop_IR-9_L.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "rooftop_IR-9_L.wav"; sourceTree = "<group>"; };
+		BCF184F11BBCD2050027AD2E /* rooftop_IR-9_R.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "rooftop_IR-9_R.wav"; sourceTree = "<group>"; };
+		BCF184F21BBCD2050027AD2E /* rooftop_SE-9.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "rooftop_SE-9.wav"; sourceTree = "<group>"; };
+		BCF184F31BBCD2050027AD2E /* TokyoBigSite_IR-9_L.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "TokyoBigSite_IR-9_L.wav"; sourceTree = "<group>"; };
+		BCF184F41BBCD2050027AD2E /* TokyoBigSite_IR-9_R.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "TokyoBigSite_IR-9_R.wav"; sourceTree = "<group>"; };
+		BCF185011BBCE1580027AD2E /* AudioKit.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AudioKit.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC3AA4031BB66B8200B6A692 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF184E31BBCCC2A0027AD2E /* libAudioKit iOS Static.a in Frameworks */,
+				BCF1849E1BBC1EAC0027AD2E /* CoreLocation.framework in Frameworks */,
+				BCF1849C1BBBEFC90027AD2E /* MapKit.framework in Frameworks */,
+				BC89D6C61BB66E39005A8303 /* QuartzCore.framework in Frameworks */,
+				BC89D6C41BB66E1E005A8303 /* Accelerate.framework in Frameworks */,
+				BC89D6C11BB66DC9005A8303 /* AudioToolbox.framework in Frameworks */,
+				BC89D6C21BB66DC9005A8303 /* AVFoundation.framework in Frameworks */,
+				BC3AA40C1BB66B8200B6A692 /* CoreGraphics.framework in Frameworks */,
+				BC3AA40E1BB66B8200B6A692 /* UIKit.framework in Frameworks */,
+				BC3AA40A1BB66B8200B6A692 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3AA4241BB66B8200B6A692 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3AA4291BB66B8200B6A692 /* XCTest.framework in Frameworks */,
+				BC3AA42B1BB66B8200B6A692 /* UIKit.framework in Frameworks */,
+				BC3AA42A1BB66B8200B6A692 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC3AA3FD1BB66B8200B6A692 = {
+			isa = PBXGroup;
+			children = (
+				BCF184D51BBCCA960027AD2E /* AudioKit.xcodeproj */,
+				BC3AA40F1BB66B8200B6A692 /* Kashiwade */,
+				BC3AA42E1BB66B8200B6A692 /* KashiwadeTests */,
+				BC3AA4081BB66B8200B6A692 /* Frameworks */,
+				BC3AA4071BB66B8200B6A692 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3AA4071BB66B8200B6A692 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC3AA4061BB66B8200B6A692 /* Kashiwade.app */,
+				BC3AA4271BB66B8200B6A692 /* KashiwadeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3AA4081BB66B8200B6A692 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCF1849D1BBC1EAC0027AD2E /* CoreLocation.framework */,
+				BCF1849B1BBBEFC90027AD2E /* MapKit.framework */,
+				BC89D6C51BB66E39005A8303 /* QuartzCore.framework */,
+				BC89D6C31BB66E1E005A8303 /* Accelerate.framework */,
+				BC89D6BF1BB66DC9005A8303 /* AudioToolbox.framework */,
+				BC89D6C01BB66DC9005A8303 /* AVFoundation.framework */,
+				BC3AA4091BB66B8200B6A692 /* Foundation.framework */,
+				BC3AA40B1BB66B8200B6A692 /* CoreGraphics.framework */,
+				BC3AA40D1BB66B8200B6A692 /* UIKit.framework */,
+				BC3AA4281BB66B8200B6A692 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC3AA40F1BB66B8200B6A692 /* Kashiwade */ = {
+			isa = PBXGroup;
+			children = (
+				BC3AA43E1BB66C3000B6A692 /* Classes */,
+				BC3AA4211BB66B8200B6A692 /* Images.xcassets */,
+				BCF184AD1BBC61480027AD2E /* image */,
+				BCF184E81BBCD2050027AD2E /* sound */,
+				BC3AA4101BB66B8200B6A692 /* Supporting Files */,
+			);
+			path = Kashiwade;
+			sourceTree = "<group>";
+		};
+		BC3AA4101BB66B8200B6A692 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCF185011BBCE1580027AD2E /* AudioKit.plist */,
+				BC3AA4111BB66B8200B6A692 /* Kashiwade-Info.plist */,
+				BC3AA4121BB66B8200B6A692 /* InfoPlist.strings */,
+				BC3AA4151BB66B8200B6A692 /* main.m */,
+				BC3AA4171BB66B8200B6A692 /* Kashiwade-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC3AA42E1BB66B8200B6A692 /* KashiwadeTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC3AA4341BB66B8200B6A692 /* KashiwadeTests.m */,
+				BC3AA42F1BB66B8200B6A692 /* Supporting Files */,
+			);
+			path = KashiwadeTests;
+			sourceTree = "<group>";
+		};
+		BC3AA42F1BB66B8200B6A692 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC3AA4301BB66B8200B6A692 /* KashiwadeTests-Info.plist */,
+				BC3AA4311BB66B8200B6A692 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC3AA43E1BB66C3000B6A692 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BC3AA43F1BB66C3000B6A692 /* AppDelegate.h */,
+				BC3AA4401BB66C3000B6A692 /* AppDelegate.m */,
+				BC3AA4411BB66C3000B6A692 /* ViewController.h */,
+				BC3AA4421BB66C3000B6A692 /* ViewController.m */,
+				BCF184A21BBC27590027AD2E /* CustomAnnotation.h */,
+				BCF184A31BBC27590027AD2E /* CustomAnnotation.m */,
+				BCF184AA1BBC5F790027AD2E /* PlayViewController.h */,
+				BCF184AB1BBC5F790027AD2E /* PlayViewController.m */,
+				BCF184E51BBCD0C10027AD2E /* ConvolutionInstrument.h */,
+				BCF184E61BBCD0C10027AD2E /* ConvolutionInstrument.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BCF184AD1BBC61480027AD2E /* image */ = {
+			isa = PBXGroup;
+			children = (
+				BCF184CC1BBC692C0027AD2E /* background */,
+				BCF184B31BBC61480027AD2E /* map_pin@2x.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		BCF184CC1BBC692C0027AD2E /* background */ = {
+			isa = PBXGroup;
+			children = (
+				BCF184CD1BBC692C0027AD2E /* carpool.jpg */,
+				BCF184CE1BBC692C0027AD2E /* pokemon.jpg */,
+				BCF184CF1BBC692C0027AD2E /* rooftop.jpeg */,
+				BCF184D01BBC692C0027AD2E /* tokyoBigSiteBasement.jpg */,
+			);
+			path = background;
+			sourceTree = "<group>";
+		};
+		BCF184D61BBCCA960027AD2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCF184DC1BBCCA970027AD2E /* libAudioKit iOS Static.a */,
+				BCF184DE1BBCCA970027AD2E /* libAudioKit iOS Dynamic.a */,
+				BCF184E01BBCCA970027AD2E /* libAudioKit OS X.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCF184E81BBCD2050027AD2E /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				BCF184E91BBCD2050027AD2E /* bktk-shinjuku-01_03may09_44116mono.wav */,
+				BCF184EA1BBCD2050027AD2E /* carpool_IR-9_L.wav */,
+				BCF184EB1BBCD2050027AD2E /* carpool_IR-9_R.wav */,
+				BCF184EC1BBCD2050027AD2E /* carpool_SE-9.wav */,
+				BCF184ED1BBCD2050027AD2E /* pokemon _IR-9_L.wav */,
+				BCF184EE1BBCD2050027AD2E /* pokemon _IR-9_R.wav */,
+				BCF184EF1BBCD2050027AD2E /* pokemon_SE-9.wav */,
+				BCF184F01BBCD2050027AD2E /* rooftop_IR-9_L.wav */,
+				BCF184F11BBCD2050027AD2E /* rooftop_IR-9_R.wav */,
+				BCF184F21BBCD2050027AD2E /* rooftop_SE-9.wav */,
+				BCF184F31BBCD2050027AD2E /* TokyoBigSite_IR-9_L.wav */,
+				BCF184F41BBCD2050027AD2E /* TokyoBigSite_IR-9_R.wav */,
+			);
+			path = sound;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC3AA4051BB66B8200B6A692 /* Kashiwade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC3AA4381BB66B8200B6A692 /* Build configuration list for PBXNativeTarget "Kashiwade" */;
+			buildPhases = (
+				BC3AA4021BB66B8200B6A692 /* Sources */,
+				BC3AA4031BB66B8200B6A692 /* Frameworks */,
+				BC3AA4041BB66B8200B6A692 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCF184E21BBCCAAF0027AD2E /* PBXTargetDependency */,
+			);
+			name = Kashiwade;
+			productName = Kashiwade;
+			productReference = BC3AA4061BB66B8200B6A692 /* Kashiwade.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC3AA4261BB66B8200B6A692 /* KashiwadeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC3AA43B1BB66B8200B6A692 /* Build configuration list for PBXNativeTarget "KashiwadeTests" */;
+			buildPhases = (
+				BC3AA4231BB66B8200B6A692 /* Sources */,
+				BC3AA4241BB66B8200B6A692 /* Frameworks */,
+				BC3AA4251BB66B8200B6A692 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC3AA42D1BB66B8200B6A692 /* PBXTargetDependency */,
+			);
+			name = KashiwadeTests;
+			productName = KashiwadeTests;
+			productReference = BC3AA4271BB66B8200B6A692 /* KashiwadeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC3AA3FE1BB66B8200B6A692 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = LoopSessions;
+				TargetAttributes = {
+					BC3AA4051BB66B8200B6A692 = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					BC3AA4261BB66B8200B6A692 = {
+						TestTargetID = BC3AA4051BB66B8200B6A692;
+					};
+				};
+			};
+			buildConfigurationList = BC3AA4011BB66B8200B6A692 /* Build configuration list for PBXProject "Kashiwade" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC3AA3FD1BB66B8200B6A692;
+			productRefGroup = BC3AA4071BB66B8200B6A692 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = BCF184D61BBCCA960027AD2E /* Products */;
+					ProjectRef = BCF184D51BBCCA960027AD2E /* AudioKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				BC3AA4051BB66B8200B6A692 /* Kashiwade */,
+				BC3AA4261BB66B8200B6A692 /* KashiwadeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		BCF184DC1BBCCA970027AD2E /* libAudioKit iOS Static.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libAudioKit iOS Static.a";
+			remoteRef = BCF184DB1BBCCA970027AD2E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BCF184DE1BBCCA970027AD2E /* libAudioKit iOS Dynamic.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libAudioKit iOS Dynamic.a";
+			remoteRef = BCF184DD1BBCCA970027AD2E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BCF184E01BBCCA970027AD2E /* libAudioKit OS X.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libAudioKit OS X.a";
+			remoteRef = BCF184DF1BBCCA970027AD2E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC3AA4041BB66B8200B6A692 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF184FE1BBCD2050027AD2E /* rooftop_SE-9.wav in Resources */,
+				BC3AA4221BB66B8200B6A692 /* Images.xcassets in Resources */,
+				BC3AA4141BB66B8200B6A692 /* InfoPlist.strings in Resources */,
+				BCF184FA1BBCD2050027AD2E /* pokemon _IR-9_R.wav in Resources */,
+				BCF185001BBCD2050027AD2E /* TokyoBigSite_IR-9_R.wav in Resources */,
+				BCF184D21BBC692C0027AD2E /* pokemon.jpg in Resources */,
+				BCF184D11BBC692C0027AD2E /* carpool.jpg in Resources */,
+				BCF184F51BBCD2050027AD2E /* bktk-shinjuku-01_03may09_44116mono.wav in Resources */,
+				BCF184FB1BBCD2050027AD2E /* pokemon_SE-9.wav in Resources */,
+				BCF184D41BBC692C0027AD2E /* tokyoBigSiteBasement.jpg in Resources */,
+				BCF184FD1BBCD2050027AD2E /* rooftop_IR-9_R.wav in Resources */,
+				BCF184FC1BBCD2050027AD2E /* rooftop_IR-9_L.wav in Resources */,
+				BCF184F61BBCD2050027AD2E /* carpool_IR-9_L.wav in Resources */,
+				BCF184F71BBCD2050027AD2E /* carpool_IR-9_R.wav in Resources */,
+				BCF184F81BBCD2050027AD2E /* carpool_SE-9.wav in Resources */,
+				BCF184B81BBC61480027AD2E /* map_pin@2x.png in Resources */,
+				BCF184FF1BBCD2050027AD2E /* TokyoBigSite_IR-9_L.wav in Resources */,
+				BCF184D31BBC692C0027AD2E /* rooftop.jpeg in Resources */,
+				BCF185021BBCE1580027AD2E /* AudioKit.plist in Resources */,
+				BCF184F91BBCD2050027AD2E /* pokemon _IR-9_L.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3AA4251BB66B8200B6A692 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3AA4331BB66B8200B6A692 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC3AA4021BB66B8200B6A692 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3AA4441BB66C3000B6A692 /* ViewController.m in Sources */,
+				BC3AA4431BB66C3000B6A692 /* AppDelegate.m in Sources */,
+				BC3AA4161BB66B8200B6A692 /* main.m in Sources */,
+				BCF184AC1BBC5F790027AD2E /* PlayViewController.m in Sources */,
+				BCF184A41BBC27590027AD2E /* CustomAnnotation.m in Sources */,
+				BCF184E71BBCD0C10027AD2E /* ConvolutionInstrument.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3AA4231BB66B8200B6A692 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3AA4351BB66B8200B6A692 /* KashiwadeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC3AA42D1BB66B8200B6A692 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC3AA4051BB66B8200B6A692 /* Kashiwade */;
+			targetProxy = BC3AA42C1BB66B8200B6A692 /* PBXContainerItemProxy */;
+		};
+		BCF184E21BBCCAAF0027AD2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AudioKit iOS Static";
+			targetProxy = BCF184E11BBCCAAF0027AD2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC3AA4121BB66B8200B6A692 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC3AA4131BB66B8200B6A692 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BC3AA4311BB66B8200B6A692 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC3AA4321BB66B8200B6A692 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC3AA4361BB66B8200B6A692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC3AA4371BB66B8200B6A692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC3AA4391BB66B8200B6A692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kashiwade/Kashiwade-Prefix.pch";
+				INFOPLIST_FILE = "Kashiwade/Kashiwade-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "AudioKit/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BC3AA43A1BB66B8200B6A692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kashiwade/Kashiwade-Prefix.pch";
+				INFOPLIST_FILE = "Kashiwade/Kashiwade-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "AudioKit/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BC3AA43C1BB66B8200B6A692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Kashiwade.app/Kashiwade";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kashiwade/Kashiwade-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KashiwadeTests/KashiwadeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BC3AA43D1BB66B8200B6A692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Kashiwade.app/Kashiwade";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kashiwade/Kashiwade-Prefix.pch";
+				INFOPLIST_FILE = "KashiwadeTests/KashiwadeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC3AA4011BB66B8200B6A692 /* Build configuration list for PBXProject "Kashiwade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC3AA4361BB66B8200B6A692 /* Debug */,
+				BC3AA4371BB66B8200B6A692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC3AA4381BB66B8200B6A692 /* Build configuration list for PBXNativeTarget "Kashiwade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC3AA4391BB66B8200B6A692 /* Debug */,
+				BC3AA43A1BB66B8200B6A692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC3AA43B1BB66B8200B6A692 /* Build configuration list for PBXNativeTarget "KashiwadeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC3AA43C1BB66B8200B6A692 /* Debug */,
+				BC3AA43D1BB66B8200B6A692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC3AA3FE1BB66B8200B6A692 /* Project object */;
+}
