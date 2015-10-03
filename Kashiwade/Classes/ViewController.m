@@ -177,9 +177,18 @@
 - (void)mapView:(MKMapView *)mapView annotationView:(MKAnnotationView *)view calloutAccessoryControlTapped:(UIControl *)control
 {
 	NSLog(@"AccessoryControlTapped");
+	CustomAnnotation *annotation = (CustomAnnotation *)view.annotation;
+	
+	int iCnt = 0;
+	for (int i = 0; i < [ARRAY_GMS_MARKER_TITLE count]; i++) {
+		if ([annotation.title isEqualToString:ARRAY_GMS_MARKER_TITLE[i]]) {
+			iCnt = i;
+			break;
+		}
+	}
 	
 	PlayViewController *pVC = [[[PlayViewController alloc] init] autorelease];
-	pVC.iIndex = 1;
+	pVC.iIndex = iCnt;
 	[self.navigationController pushViewController:pVC animated:YES];
 }
 
