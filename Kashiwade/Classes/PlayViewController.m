@@ -21,6 +21,9 @@
 //	AKAudioOutputPlot *plot;
 	
 	BOOL _isPlaying;
+    UILabel *labelKashiwade;
+    
+    int numKashiwade; // todo: 仮 サーバー側のデータベースに置く
 }
 
 - (id)init
@@ -108,8 +111,24 @@
 	
     dryWetSlider.property = conv.dryWetBalance;
     dishStairwellSlider.property = conv.dishWellBalance;
-	
-	/*
+    
+    numKashiwade=0;
+    labelKashiwade = [[UILabel alloc] initWithFrame:CGRectMake(20.0, 122.0, fWidth-80.0, 30.0)];
+    labelKashiwade.textAlignment=NSTextAlignmentRight;
+    labelKashiwade.text=[NSString stringWithFormat:@"%d柏手", numKashiwade];
+    [self.view addSubview:labelKashiwade];
+    
+    UIImage *imageKashiwade1 = [UIImage imageNamed:@"clap_1_c.png"];
+    UIImage *imageKashiwade2 = [UIImage imageNamed:@"clap_2_c.png"];
+    UIButton *buttonKashiwade = [UIButton buttonWithType:UIButtonTypeCustom];
+    buttonKashiwade.tag = 1001;
+    [buttonKashiwade setFrame:CGRectMake(fWidth - 50.0, 120.0, 30.0, 30.0)];
+    [buttonKashiwade setImage:imageKashiwade1 forState:UIControlStateNormal];
+    [buttonKashiwade setImage:imageKashiwade2 forState:UIControlStateHighlighted];
+    [buttonKashiwade addTarget:self action:@selector(doKashiwade:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:buttonKashiwade];
+
+    /*
 	plot = [[AKAudioOutputPlot alloc] init];
 	plot.frame = CGRectMake(10, 377, 300, 200);
 	[self.view addSubview:plot];
@@ -163,6 +182,12 @@
 - (void)viewDidDisappear:(BOOL)animated
 {
 	[super viewDidDisappear:animated];
+}
+
+- (void)doKashiwade:(UIButton *)sender
+{
+    numKashiwade++;
+    labelKashiwade.text=[NSString stringWithFormat:@"%d柏手", numKashiwade];
 }
 
 ////////////////////////////////////////////////////////////////

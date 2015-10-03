@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		000281A71BBFBB3A004FBCE8 /* clap_1_c.png in Resources */ = {isa = PBXBuildFile; fileRef = 000281A51BBFBB3A004FBCE8 /* clap_1_c.png */; settings = {ASSET_TAGS = (); }; };
+		000281A81BBFBB3A004FBCE8 /* clap_2_c.png in Resources */ = {isa = PBXBuildFile; fileRef = 000281A61BBFBB3A004FBCE8 /* clap_2_c.png */; settings = {ASSET_TAGS = (); }; };
+		000281AE1BBFCC13004FBCE8 /* kashiwade.wav in Resources */ = {isa = PBXBuildFile; fileRef = 000281AD1BBFCC13004FBCE8 /* kashiwade.wav */; settings = {ASSET_TAGS = (); }; };
 		BC3AA40A1BB66B8200B6A692 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3AA4091BB66B8200B6A692 /* Foundation.framework */; };
 		BC3AA40C1BB66B8200B6A692 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3AA40B1BB66B8200B6A692 /* CoreGraphics.framework */; };
 		BC3AA40E1BB66B8200B6A692 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3AA40D1BB66B8200B6A692 /* UIKit.framework */; };
@@ -89,6 +92,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		000281A51BBFBB3A004FBCE8 /* clap_1_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clap_1_c.png; sourceTree = "<group>"; };
+		000281A61BBFBB3A004FBCE8 /* clap_2_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clap_2_c.png; sourceTree = "<group>"; };
+		000281AD1BBFCC13004FBCE8 /* kashiwade.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = kashiwade.wav; sourceTree = "<group>"; };
 		BC3AA4061BB66B8200B6A692 /* Kashiwade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kashiwade.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC3AA4091BB66B8200B6A692 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BC3AA40B1BB66B8200B6A692 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -272,6 +278,8 @@
 			children = (
 				BCF184CC1BBC692C0027AD2E /* background */,
 				BCF184B31BBC61480027AD2E /* map_pin@2x.png */,
+				000281A51BBFBB3A004FBCE8 /* clap_1_c.png */,
+				000281A61BBFBB3A004FBCE8 /* clap_2_c.png */,
 			);
 			path = image;
 			sourceTree = "<group>";
@@ -300,6 +308,7 @@
 		BCF184E81BBCD2050027AD2E /* sound */ = {
 			isa = PBXGroup;
 			children = (
+				000281AD1BBFCC13004FBCE8 /* kashiwade.wav */,
 				BCF184E91BBCD2050027AD2E /* bktk-shinjuku-01_03may09_44116mono.wav */,
 				BCF184EA1BBCD2050027AD2E /* carpool_IR-9_L.wav */,
 				BCF184EB1BBCD2050027AD2E /* carpool_IR-9_R.wav */,
@@ -447,9 +456,12 @@
 				BCF184F71BBCD2050027AD2E /* carpool_IR-9_R.wav in Resources */,
 				BCF184F81BBCD2050027AD2E /* carpool_SE-9.wav in Resources */,
 				BCF184B81BBC61480027AD2E /* map_pin@2x.png in Resources */,
+				000281A81BBFBB3A004FBCE8 /* clap_2_c.png in Resources */,
 				BCF184FF1BBCD2050027AD2E /* TokyoBigSite_IR-9_L.wav in Resources */,
 				BCF184D31BBC692C0027AD2E /* rooftop.jpeg in Resources */,
 				BCF185021BBCE1580027AD2E /* AudioKit.plist in Resources */,
+				000281AE1BBFCC13004FBCE8 /* kashiwade.wav in Resources */,
+				000281A71BBFBB3A004FBCE8 /* clap_1_c.png in Resources */,
 				BCF184F91BBCD2050027AD2E /* pokemon _IR-9_L.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
