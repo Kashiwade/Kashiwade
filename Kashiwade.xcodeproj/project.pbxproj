@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		000281A71BBFBB3A004FBCE8 /* clap_1_c.png in Resources */ = {isa = PBXBuildFile; fileRef = 000281A51BBFBB3A004FBCE8 /* clap_1_c.png */; settings = {ASSET_TAGS = (); }; };
-		000281A81BBFBB3A004FBCE8 /* clap_2_c.png in Resources */ = {isa = PBXBuildFile; fileRef = 000281A61BBFBB3A004FBCE8 /* clap_2_c.png */; settings = {ASSET_TAGS = (); }; };
-		000281AE1BBFCC13004FBCE8 /* kashiwade.wav in Resources */ = {isa = PBXBuildFile; fileRef = 000281AD1BBFCC13004FBCE8 /* kashiwade.wav */; settings = {ASSET_TAGS = (); }; };
+		000281A71BBFBB3A004FBCE8 /* clap_1_c.png in Resources */ = {isa = PBXBuildFile; fileRef = 000281A51BBFBB3A004FBCE8 /* clap_1_c.png */; };
+		000281A81BBFBB3A004FBCE8 /* clap_2_c.png in Resources */ = {isa = PBXBuildFile; fileRef = 000281A61BBFBB3A004FBCE8 /* clap_2_c.png */; };
+		000281AE1BBFCC13004FBCE8 /* kashiwade.wav in Resources */ = {isa = PBXBuildFile; fileRef = 000281AD1BBFCC13004FBCE8 /* kashiwade.wav */; };
 		BC3AA40A1BB66B8200B6A692 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3AA4091BB66B8200B6A692 /* Foundation.framework */; };
 		BC3AA40C1BB66B8200B6A692 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3AA40B1BB66B8200B6A692 /* CoreGraphics.framework */; };
 		BC3AA40E1BB66B8200B6A692 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3AA40D1BB66B8200B6A692 /* UIKit.framework */; };
@@ -374,7 +374,6 @@
 				ORGANIZATIONNAME = LoopSessions;
 				TargetAttributes = {
 					BC3AA4051BB66B8200B6A692 = {
-						DevelopmentTeam = 4EDZ47UJM4;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -617,6 +616,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "AudioKit/**";
 				WRAPPER_EXTENSION = app;
 			};
@@ -636,6 +636,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "AudioKit/**";
 				WRAPPER_EXTENSION = app;
 			};
