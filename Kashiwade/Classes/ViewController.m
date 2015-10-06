@@ -70,6 +70,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+/*
 - (void)dealloc
 {
 	[_mapView release];
@@ -77,6 +78,7 @@
 	[_locationManager release];
 	[super dealloc];
 }
+*/
 
 - (void)createPin:(CLLocationDegrees)latitude longitude:(CLLocationDegrees)longitude title:(NSString *)title subTitle:(NSString *)subTitle
 {
@@ -187,7 +189,8 @@
 		}
 	}
 	
-	PlayViewController *pVC = [[[PlayViewController alloc] init] autorelease];
+//	PlayViewController *pVC = [[[PlayViewController alloc] init] autorelease];
+	PlayViewController *pVC = [[PlayViewController alloc] init];
 	pVC.iIndex = iCnt;
 	[self.navigationController pushViewController:pVC animated:YES];
 }
