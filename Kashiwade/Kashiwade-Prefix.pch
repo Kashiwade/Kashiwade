@@ -37,6 +37,7 @@ static const double LONGTIDE[] = {139.0, 139.1359808, 139.7092071, 139.794686, 1
 #define ARRAY_INPUT_FILE (@[@"808loop", @"808loop", @"808loop", @"808loop", @"808loop"])
 #define ARRAY_IMPULSE_L (@[@"rooftop_IR-9_L", @"carpool_IR-9_L", @"bktk-shinjuku-01_03may09_44116mono", @"TokyoBigSite_IR-9_L", @"pokemon _IR-9_L"])
 #define ARRAY_IMPULSE_R (@[@"rooftop_IR-9_R", @"carpool_IR-9_R", @"bktk-shinjuku-01_03may09_44116mono", @"TokyoBigSite_IR-9_R", @"pokemon _IR-9_R"])
+#define ARRAY_IMPULSE_STEREO (@[@"rooftop_IR-9_LR", @"carpool_IR-9_LR", @"bktk-shinjuku-01_03may09", @"TokyoBigSite_IR-9_LR", @"pokemon _IR-9_LR"])
 #define ARRAY_BGM (@[@"rooftop_SE-9", @"carpool_SE-9", @"", @"", @"pokemon_SE-9"])
 
 #define ARRAY_PLACE_IMAGE_NAME (@[@"rooftop.jpeg", @"carpool.jpg", @"", @"tokyoBigSiteBasement.jpg", @"pokemon.jpg"])

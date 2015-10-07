@@ -23,6 +23,23 @@
 		BC3AA4351BB66B8200B6A692 /* KashiwadeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3AA4341BB66B8200B6A692 /* KashiwadeTests.m */; };
 		BC3AA4431BB66C3000B6A692 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3AA4401BB66C3000B6A692 /* AppDelegate.m */; };
 		BC3AA4441BB66C3000B6A692 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3AA4421BB66C3000B6A692 /* ViewController.m */; };
+		BC745ABE1BC5084E0037A22A /* bktk-shinjuku-01_03may09.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC745AB91BC5084E0037A22A /* bktk-shinjuku-01_03may09.wav */; settings = {ASSET_TAGS = (); }; };
+		BC745ABF1BC5084E0037A22A /* carpool_IR-9_LR.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC745ABA1BC5084E0037A22A /* carpool_IR-9_LR.wav */; settings = {ASSET_TAGS = (); }; };
+		BC745AC01BC5084E0037A22A /* pokemon _IR-9_LR.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC745ABB1BC5084E0037A22A /* pokemon _IR-9_LR.wav */; settings = {ASSET_TAGS = (); }; };
+		BC745AC11BC5084E0037A22A /* rooftop_IR-9_LR.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC745ABC1BC5084E0037A22A /* rooftop_IR-9_LR.wav */; settings = {ASSET_TAGS = (); }; };
+		BC745AC21BC5084E0037A22A /* TokyoBigSite_IR-9_LR.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC745ABD1BC5084E0037A22A /* TokyoBigSite_IR-9_LR.wav */; settings = {ASSET_TAGS = (); }; };
+		BC745AD31BC508E20037A22A /* carpool_SE-9.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC745AC61BC508E20037A22A /* carpool_SE-9.wav */; settings = {ASSET_TAGS = (); }; };
+		BC745AD41BC508E20037A22A /* pokemon_SE-9.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC745AC71BC508E20037A22A /* pokemon_SE-9.wav */; settings = {ASSET_TAGS = (); }; };
+		BC745AD51BC508E20037A22A /* rooftop_SE-9.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC745AC81BC508E20037A22A /* rooftop_SE-9.wav */; settings = {ASSET_TAGS = (); }; };
+		BC745AD61BC508E20037A22A /* bktk-shinjuku-01_03may09_44116mono.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC745ACA1BC508E20037A22A /* bktk-shinjuku-01_03may09_44116mono.wav */; settings = {ASSET_TAGS = (); }; };
+		BC745AD71BC508E20037A22A /* carpool_IR-9_L.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC745ACB1BC508E20037A22A /* carpool_IR-9_L.wav */; settings = {ASSET_TAGS = (); }; };
+		BC745AD81BC508E20037A22A /* carpool_IR-9_R.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC745ACC1BC508E20037A22A /* carpool_IR-9_R.wav */; settings = {ASSET_TAGS = (); }; };
+		BC745AD91BC508E20037A22A /* pokemon _IR-9_L.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC745ACD1BC508E20037A22A /* pokemon _IR-9_L.wav */; settings = {ASSET_TAGS = (); }; };
+		BC745ADA1BC508E20037A22A /* pokemon _IR-9_R.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC745ACE1BC508E20037A22A /* pokemon _IR-9_R.wav */; settings = {ASSET_TAGS = (); }; };
+		BC745ADB1BC508E20037A22A /* rooftop_IR-9_L.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC745ACF1BC508E20037A22A /* rooftop_IR-9_L.wav */; settings = {ASSET_TAGS = (); }; };
+		BC745ADC1BC508E20037A22A /* rooftop_IR-9_R.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC745AD01BC508E20037A22A /* rooftop_IR-9_R.wav */; settings = {ASSET_TAGS = (); }; };
+		BC745ADD1BC508E20037A22A /* TokyoBigSite_IR-9_L.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC745AD11BC508E20037A22A /* TokyoBigSite_IR-9_L.wav */; settings = {ASSET_TAGS = (); }; };
+		BC745ADE1BC508E20037A22A /* TokyoBigSite_IR-9_R.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC745AD21BC508E20037A22A /* TokyoBigSite_IR-9_R.wav */; settings = {ASSET_TAGS = (); }; };
 		BC89D6C11BB66DC9005A8303 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC89D6BF1BB66DC9005A8303 /* AudioToolbox.framework */; };
 		BC89D6C21BB66DC9005A8303 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC89D6C01BB66DC9005A8303 /* AVFoundation.framework */; };
 		BC89D6C41BB66E1E005A8303 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC89D6C31BB66E1E005A8303 /* Accelerate.framework */; };
@@ -38,18 +55,6 @@
 		BCF184D41BBC692C0027AD2E /* tokyoBigSiteBasement.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCF184D01BBC692C0027AD2E /* tokyoBigSiteBasement.jpg */; };
 		BCF184E31BBCCC2A0027AD2E /* libAudioKit iOS Static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF184DC1BBCCA970027AD2E /* libAudioKit iOS Static.a */; };
 		BCF184E71BBCD0C10027AD2E /* ConvolutionInstrument.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF184E61BBCD0C10027AD2E /* ConvolutionInstrument.m */; };
-		BCF184F51BBCD2050027AD2E /* bktk-shinjuku-01_03may09_44116mono.wav in Resources */ = {isa = PBXBuildFile; fileRef = BCF184E91BBCD2050027AD2E /* bktk-shinjuku-01_03may09_44116mono.wav */; };
-		BCF184F61BBCD2050027AD2E /* carpool_IR-9_L.wav in Resources */ = {isa = PBXBuildFile; fileRef = BCF184EA1BBCD2050027AD2E /* carpool_IR-9_L.wav */; };
-		BCF184F71BBCD2050027AD2E /* carpool_IR-9_R.wav in Resources */ = {isa = PBXBuildFile; fileRef = BCF184EB1BBCD2050027AD2E /* carpool_IR-9_R.wav */; };
-		BCF184F81BBCD2050027AD2E /* carpool_SE-9.wav in Resources */ = {isa = PBXBuildFile; fileRef = BCF184EC1BBCD2050027AD2E /* carpool_SE-9.wav */; };
-		BCF184F91BBCD2050027AD2E /* pokemon _IR-9_L.wav in Resources */ = {isa = PBXBuildFile; fileRef = BCF184ED1BBCD2050027AD2E /* pokemon _IR-9_L.wav */; };
-		BCF184FA1BBCD2050027AD2E /* pokemon _IR-9_R.wav in Resources */ = {isa = PBXBuildFile; fileRef = BCF184EE1BBCD2050027AD2E /* pokemon _IR-9_R.wav */; };
-		BCF184FB1BBCD2050027AD2E /* pokemon_SE-9.wav in Resources */ = {isa = PBXBuildFile; fileRef = BCF184EF1BBCD2050027AD2E /* pokemon_SE-9.wav */; };
-		BCF184FC1BBCD2050027AD2E /* rooftop_IR-9_L.wav in Resources */ = {isa = PBXBuildFile; fileRef = BCF184F01BBCD2050027AD2E /* rooftop_IR-9_L.wav */; };
-		BCF184FD1BBCD2050027AD2E /* rooftop_IR-9_R.wav in Resources */ = {isa = PBXBuildFile; fileRef = BCF184F11BBCD2050027AD2E /* rooftop_IR-9_R.wav */; };
-		BCF184FE1BBCD2050027AD2E /* rooftop_SE-9.wav in Resources */ = {isa = PBXBuildFile; fileRef = BCF184F21BBCD2050027AD2E /* rooftop_SE-9.wav */; };
-		BCF184FF1BBCD2050027AD2E /* TokyoBigSite_IR-9_L.wav in Resources */ = {isa = PBXBuildFile; fileRef = BCF184F31BBCD2050027AD2E /* TokyoBigSite_IR-9_L.wav */; };
-		BCF185001BBCD2050027AD2E /* TokyoBigSite_IR-9_R.wav in Resources */ = {isa = PBXBuildFile; fileRef = BCF184F41BBCD2050027AD2E /* TokyoBigSite_IR-9_R.wav */; };
 		BCF185021BBCE1580027AD2E /* AudioKit.plist in Resources */ = {isa = PBXBuildFile; fileRef = BCF185011BBCE1580027AD2E /* AudioKit.plist */; };
 /* End PBXBuildFile section */
 
@@ -113,6 +118,23 @@
 		BC3AA4401BB66C3000B6A692 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BC3AA4411BB66C3000B6A692 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BC3AA4421BB66C3000B6A692 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC745AB91BC5084E0037A22A /* bktk-shinjuku-01_03may09.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "bktk-shinjuku-01_03may09.wav"; sourceTree = "<group>"; };
+		BC745ABA1BC5084E0037A22A /* carpool_IR-9_LR.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "carpool_IR-9_LR.wav"; sourceTree = "<group>"; };
+		BC745ABB1BC5084E0037A22A /* pokemon _IR-9_LR.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "pokemon _IR-9_LR.wav"; sourceTree = "<group>"; };
+		BC745ABC1BC5084E0037A22A /* rooftop_IR-9_LR.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "rooftop_IR-9_LR.wav"; sourceTree = "<group>"; };
+		BC745ABD1BC5084E0037A22A /* TokyoBigSite_IR-9_LR.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "TokyoBigSite_IR-9_LR.wav"; sourceTree = "<group>"; };
+		BC745AC61BC508E20037A22A /* carpool_SE-9.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "carpool_SE-9.wav"; sourceTree = "<group>"; };
+		BC745AC71BC508E20037A22A /* pokemon_SE-9.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "pokemon_SE-9.wav"; sourceTree = "<group>"; };
+		BC745AC81BC508E20037A22A /* rooftop_SE-9.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "rooftop_SE-9.wav"; sourceTree = "<group>"; };
+		BC745ACA1BC508E20037A22A /* bktk-shinjuku-01_03may09_44116mono.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "bktk-shinjuku-01_03may09_44116mono.wav"; sourceTree = "<group>"; };
+		BC745ACB1BC508E20037A22A /* carpool_IR-9_L.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "carpool_IR-9_L.wav"; sourceTree = "<group>"; };
+		BC745ACC1BC508E20037A22A /* carpool_IR-9_R.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "carpool_IR-9_R.wav"; sourceTree = "<group>"; };
+		BC745ACD1BC508E20037A22A /* pokemon _IR-9_L.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "pokemon _IR-9_L.wav"; sourceTree = "<group>"; };
+		BC745ACE1BC508E20037A22A /* pokemon _IR-9_R.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "pokemon _IR-9_R.wav"; sourceTree = "<group>"; };
+		BC745ACF1BC508E20037A22A /* rooftop_IR-9_L.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "rooftop_IR-9_L.wav"; sourceTree = "<group>"; };
+		BC745AD01BC508E20037A22A /* rooftop_IR-9_R.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "rooftop_IR-9_R.wav"; sourceTree = "<group>"; };
+		BC745AD11BC508E20037A22A /* TokyoBigSite_IR-9_L.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "TokyoBigSite_IR-9_L.wav"; sourceTree = "<group>"; };
+		BC745AD21BC508E20037A22A /* TokyoBigSite_IR-9_R.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "TokyoBigSite_IR-9_R.wav"; sourceTree = "<group>"; };
 		BC89D6BF1BB66DC9005A8303 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		BC89D6C01BB66DC9005A8303 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		BC89D6C31BB66E1E005A8303 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
@@ -131,18 +153,6 @@
 		BCF184D51BBCCA960027AD2E /* AudioKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = AudioKit.xcodeproj; sourceTree = "<group>"; };
 		BCF184E51BBCD0C10027AD2E /* ConvolutionInstrument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConvolutionInstrument.h; sourceTree = "<group>"; };
 		BCF184E61BBCD0C10027AD2E /* ConvolutionInstrument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConvolutionInstrument.m; sourceTree = "<group>"; };
-		BCF184E91BBCD2050027AD2E /* bktk-shinjuku-01_03may09_44116mono.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "bktk-shinjuku-01_03may09_44116mono.wav"; sourceTree = "<group>"; };
-		BCF184EA1BBCD2050027AD2E /* carpool_IR-9_L.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "carpool_IR-9_L.wav"; sourceTree = "<group>"; };
-		BCF184EB1BBCD2050027AD2E /* carpool_IR-9_R.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "carpool_IR-9_R.wav"; sourceTree = "<group>"; };
-		BCF184EC1BBCD2050027AD2E /* carpool_SE-9.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "carpool_SE-9.wav"; sourceTree = "<group>"; };
-		BCF184ED1BBCD2050027AD2E /* pokemon _IR-9_L.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "pokemon _IR-9_L.wav"; sourceTree = "<group>"; };
-		BCF184EE1BBCD2050027AD2E /* pokemon _IR-9_R.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "pokemon _IR-9_R.wav"; sourceTree = "<group>"; };
-		BCF184EF1BBCD2050027AD2E /* pokemon_SE-9.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "pokemon_SE-9.wav"; sourceTree = "<group>"; };
-		BCF184F01BBCD2050027AD2E /* rooftop_IR-9_L.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "rooftop_IR-9_L.wav"; sourceTree = "<group>"; };
-		BCF184F11BBCD2050027AD2E /* rooftop_IR-9_R.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "rooftop_IR-9_R.wav"; sourceTree = "<group>"; };
-		BCF184F21BBCD2050027AD2E /* rooftop_SE-9.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "rooftop_SE-9.wav"; sourceTree = "<group>"; };
-		BCF184F31BBCD2050027AD2E /* TokyoBigSite_IR-9_L.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "TokyoBigSite_IR-9_L.wav"; sourceTree = "<group>"; };
-		BCF184F41BBCD2050027AD2E /* TokyoBigSite_IR-9_R.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "TokyoBigSite_IR-9_R.wav"; sourceTree = "<group>"; };
 		BCF185011BBCE1580027AD2E /* AudioKit.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AudioKit.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -273,6 +283,44 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		BC745AB81BC5084E0037A22A /* stereo */ = {
+			isa = PBXGroup;
+			children = (
+				BC745AB91BC5084E0037A22A /* bktk-shinjuku-01_03may09.wav */,
+				BC745ABA1BC5084E0037A22A /* carpool_IR-9_LR.wav */,
+				BC745ABB1BC5084E0037A22A /* pokemon _IR-9_LR.wav */,
+				BC745ABC1BC5084E0037A22A /* rooftop_IR-9_LR.wav */,
+				BC745ABD1BC5084E0037A22A /* TokyoBigSite_IR-9_LR.wav */,
+			);
+			path = stereo;
+			sourceTree = "<group>";
+		};
+		BC745AC51BC508E20037A22A /* bgm */ = {
+			isa = PBXGroup;
+			children = (
+				BC745AC61BC508E20037A22A /* carpool_SE-9.wav */,
+				BC745AC71BC508E20037A22A /* pokemon_SE-9.wav */,
+				BC745AC81BC508E20037A22A /* rooftop_SE-9.wav */,
+			);
+			path = bgm;
+			sourceTree = "<group>";
+		};
+		BC745AC91BC508E20037A22A /* mono */ = {
+			isa = PBXGroup;
+			children = (
+				BC745ACA1BC508E20037A22A /* bktk-shinjuku-01_03may09_44116mono.wav */,
+				BC745ACB1BC508E20037A22A /* carpool_IR-9_L.wav */,
+				BC745ACC1BC508E20037A22A /* carpool_IR-9_R.wav */,
+				BC745ACD1BC508E20037A22A /* pokemon _IR-9_L.wav */,
+				BC745ACE1BC508E20037A22A /* pokemon _IR-9_R.wav */,
+				BC745ACF1BC508E20037A22A /* rooftop_IR-9_L.wav */,
+				BC745AD01BC508E20037A22A /* rooftop_IR-9_R.wav */,
+				BC745AD11BC508E20037A22A /* TokyoBigSite_IR-9_L.wav */,
+				BC745AD21BC508E20037A22A /* TokyoBigSite_IR-9_R.wav */,
+			);
+			path = mono;
+			sourceTree = "<group>";
+		};
 		BCF184AD1BBC61480027AD2E /* image */ = {
 			isa = PBXGroup;
 			children = (
@@ -309,18 +357,9 @@
 			isa = PBXGroup;
 			children = (
 				000281AD1BBFCC13004FBCE8 /* kashiwade.wav */,
-				BCF184E91BBCD2050027AD2E /* bktk-shinjuku-01_03may09_44116mono.wav */,
-				BCF184EA1BBCD2050027AD2E /* carpool_IR-9_L.wav */,
-				BCF184EB1BBCD2050027AD2E /* carpool_IR-9_R.wav */,
-				BCF184EC1BBCD2050027AD2E /* carpool_SE-9.wav */,
-				BCF184ED1BBCD2050027AD2E /* pokemon _IR-9_L.wav */,
-				BCF184EE1BBCD2050027AD2E /* pokemon _IR-9_R.wav */,
-				BCF184EF1BBCD2050027AD2E /* pokemon_SE-9.wav */,
-				BCF184F01BBCD2050027AD2E /* rooftop_IR-9_L.wav */,
-				BCF184F11BBCD2050027AD2E /* rooftop_IR-9_R.wav */,
-				BCF184F21BBCD2050027AD2E /* rooftop_SE-9.wav */,
-				BCF184F31BBCD2050027AD2E /* TokyoBigSite_IR-9_L.wav */,
-				BCF184F41BBCD2050027AD2E /* TokyoBigSite_IR-9_R.wav */,
+				BC745AC51BC508E20037A22A /* bgm */,
+				BC745AC91BC508E20037A22A /* mono */,
+				BC745AB81BC5084E0037A22A /* stereo */,
 			);
 			path = sound;
 			sourceTree = "<group>";
@@ -439,29 +478,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCF184FE1BBCD2050027AD2E /* rooftop_SE-9.wav in Resources */,
+				BC745AC01BC5084E0037A22A /* pokemon _IR-9_LR.wav in Resources */,
+				BC745ABF1BC5084E0037A22A /* carpool_IR-9_LR.wav in Resources */,
+				BC745AD41BC508E20037A22A /* pokemon_SE-9.wav in Resources */,
 				BC3AA4221BB66B8200B6A692 /* Images.xcassets in Resources */,
 				BC3AA4141BB66B8200B6A692 /* InfoPlist.strings in Resources */,
-				BCF184FA1BBCD2050027AD2E /* pokemon _IR-9_R.wav in Resources */,
-				BCF185001BBCD2050027AD2E /* TokyoBigSite_IR-9_R.wav in Resources */,
+				BC745AD31BC508E20037A22A /* carpool_SE-9.wav in Resources */,
 				BCF184D21BBC692C0027AD2E /* pokemon.jpg in Resources */,
 				BCF184D11BBC692C0027AD2E /* carpool.jpg in Resources */,
-				BCF184F51BBCD2050027AD2E /* bktk-shinjuku-01_03may09_44116mono.wav in Resources */,
-				BCF184FB1BBCD2050027AD2E /* pokemon_SE-9.wav in Resources */,
+				BC745AD61BC508E20037A22A /* bktk-shinjuku-01_03may09_44116mono.wav in Resources */,
 				BCF184D41BBC692C0027AD2E /* tokyoBigSiteBasement.jpg in Resources */,
-				BCF184FD1BBCD2050027AD2E /* rooftop_IR-9_R.wav in Resources */,
-				BCF184FC1BBCD2050027AD2E /* rooftop_IR-9_L.wav in Resources */,
-				BCF184F61BBCD2050027AD2E /* carpool_IR-9_L.wav in Resources */,
-				BCF184F71BBCD2050027AD2E /* carpool_IR-9_R.wav in Resources */,
-				BCF184F81BBCD2050027AD2E /* carpool_SE-9.wav in Resources */,
+				BC745ABE1BC5084E0037A22A /* bktk-shinjuku-01_03may09.wav in Resources */,
+				BC745AC21BC5084E0037A22A /* TokyoBigSite_IR-9_LR.wav in Resources */,
 				BCF184B81BBC61480027AD2E /* map_pin@2x.png in Resources */,
+				BC745AD91BC508E20037A22A /* pokemon _IR-9_L.wav in Resources */,
+				BC745AD81BC508E20037A22A /* carpool_IR-9_R.wav in Resources */,
 				000281A81BBFBB3A004FBCE8 /* clap_2_c.png in Resources */,
-				BCF184FF1BBCD2050027AD2E /* TokyoBigSite_IR-9_L.wav in Resources */,
+				BC745ADC1BC508E20037A22A /* rooftop_IR-9_R.wav in Resources */,
+				BC745AC11BC5084E0037A22A /* rooftop_IR-9_LR.wav in Resources */,
+				BC745ADA1BC508E20037A22A /* pokemon _IR-9_R.wav in Resources */,
 				BCF184D31BBC692C0027AD2E /* rooftop.jpeg in Resources */,
+				BC745AD51BC508E20037A22A /* rooftop_SE-9.wav in Resources */,
+				BC745ADE1BC508E20037A22A /* TokyoBigSite_IR-9_R.wav in Resources */,
 				BCF185021BBCE1580027AD2E /* AudioKit.plist in Resources */,
+				BC745AD71BC508E20037A22A /* carpool_IR-9_L.wav in Resources */,
 				000281AE1BBFCC13004FBCE8 /* kashiwade.wav in Resources */,
+				BC745ADD1BC508E20037A22A /* TokyoBigSite_IR-9_L.wav in Resources */,
+				BC745ADB1BC508E20037A22A /* rooftop_IR-9_L.wav in Resources */,
 				000281A71BBFBB3A004FBCE8 /* clap_1_c.png in Resources */,
-				BCF184F91BBCD2050027AD2E /* pokemon _IR-9_L.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

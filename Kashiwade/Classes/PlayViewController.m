@@ -14,10 +14,10 @@
 
 @implementation PlayViewController
 {
-	ConvolutionInstrument *conv;
+	ConvolutionInstrument *_conv;
 	
-	AKPropertySlider *dryWetSlider;
-	AKPropertySlider *dishStairwellSlider;
+	AKPropertySlider *_dryWetSlider;
+	AKPropertySlider *_dishStairwellSlider;
 //	AKAudioOutputPlot *plot;
 	
 	BOOL _isPlaying;
@@ -55,7 +55,13 @@
 	
 	
 	self.title = ARRAY_GMS_MARKER_TITLE[_iIndex];
-	[self initInstrument:ARRAY_INPUT_FILE[_iIndex] impulseL:ARRAY_IMPULSE_L[_iIndex] impulseR:ARRAY_IMPULSE_R[_iIndex] bgm:ARRAY_BGM[_iIndex]];
+	////////////////
+	// !!!: [Test] 以下の切り替えで、従来版（mono）と修正版（stereo）の聴き比べが可能
+	// mono
+//	[self initInstrument:ARRAY_INPUT_FILE[_iIndex] impulseL:ARRAY_IMPULSE_L[_iIndex] impulseR:ARRAY_IMPULSE_R[_iIndex] bgm:ARRAY_BGM[_iIndex]];
+	// stereo
+	[self initInstrument:ARRAY_INPUT_FILE[_iIndex] impulse:ARRAY_IMPULSE_STEREO[_iIndex] bgm:ARRAY_BGM[_iIndex]];
+	////////////////
 	
 	if ([ARRAY_PLACE_IMAGE_NAME[_iIndex] length] > 0) {
 		UIImage *imageBg = [UIImage imageNamed:ARRAY_PLACE_IMAGE_NAME[_iIndex]];
@@ -67,6 +73,7 @@
 		}
 	}
 	
+	// stereoの場合、「L」「R」は不要になる
 	NSArray *arLabelSubTitle = @[@[@"Dry", @"Wet"], @[@"L", @"R"]];
 	UILabel *labelSliderSubTitle[2][2];
 	for (int i = 0; i < 2; i++) {
@@ -85,15 +92,15 @@
 	}
 	
 	////
-	dryWetSlider = [[AKPropertySlider alloc] init];
-	dryWetSlider.frame = CGRectMake(30.0, 195.0, fWidth - 40.0, 30.0);
-//	[dryWetSlider addTarget:self action:@selector(sliderNBandEQChanged:) forControlEvents:UIControlEventValueChanged];
-	[self.view addSubview:dryWetSlider];
+	_dryWetSlider = [[AKPropertySlider alloc] init];
+	_dryWetSlider.frame = CGRectMake(30.0, 195.0, fWidth - 40.0, 30.0);
+//	[_dryWetSlider addTarget:self action:@selector(sliderNBandEQChanged:) forControlEvents:UIControlEventValueChanged];
+	[self.view addSubview:_dryWetSlider];
 	
-	dishStairwellSlider = [[AKPropertySlider alloc] init];
-	dishStairwellSlider.frame = CGRectMake(30.0, 290.0, fWidth - 40.0, 30.0);
-//	[dishStairwellSlider addTarget:self action:@selector(sliderNBandEQChanged:) forControlEvents:UIControlEventValueChanged];
-	[self.view addSubview:dishStairwellSlider];
+	_dishStairwellSlider = [[AKPropertySlider alloc] init];
+	_dishStairwellSlider.frame = CGRectMake(30.0, 290.0, fWidth - 40.0, 30.0);
+//	[_dishStairwellSlider addTarget:self action:@selector(sliderNBandEQChanged:) forControlEvents:UIControlEventValueChanged];
+	[self.view addSubview:_dishStairwellSlider];
 	
 	UIButton *buttonPlay = [UIButton buttonWithType:UIButtonTypeCustom];
 	buttonPlay.tag = 1000;
@@ -109,8 +116,8 @@
 	buttonPlay.clipsToBounds = YES;
 	////
 	
-    dryWetSlider.property = conv.dryWetBalance;
-    dishStairwellSlider.property = conv.dishWellBalance;
+	_dryWetSlider.property = _conv.dryWetBalance;
+	_dishStairwellSlider.property = _conv.dishWellBalance;
     
     numKashiwade=0;
     labelKashiwade = [[UILabel alloc] initWithFrame:CGRectMake(20.0, 122.0, fWidth-80.0, 30.0)];
@@ -137,11 +144,12 @@
 	*/
 }
 
+// mono
 - (void)initInstrument:(NSString *)strSrc impulseL:(NSString *)strImpulseL impulseR:(NSString *)strImpulseR bgm:(NSString *)strBgm
 {
-	conv = [[ConvolutionInstrument alloc] init];
-	[conv setFiles:strSrc impulseL:strImpulseL impulseR:strImpulseR bgm:strBgm];
-	[AKOrchestra addInstrument:conv];
+	_conv = [[ConvolutionInstrument alloc] init];
+	[_conv setFiles:strSrc impulseL:strImpulseL impulseR:strImpulseR bgm:strBgm];
+	[AKOrchestra addInstrument:_conv];
 	
 	/*
 //	AKAudioAnalyzer *analyzer = [[AKAudioAnalyzer alloc] initWithInput:conv.auxilliaryOutput];
@@ -149,6 +157,14 @@
 	[AKOrchestra addInstrument:analyzer];
 	[analyzer play];
 	*/
+}
+
+// stereo
+- (void)initInstrument:(NSString *)strSrc impulse:(NSString *)strImpulse bgm:(NSString *)strBgm
+{
+	_conv = [[ConvolutionInstrument alloc] init];
+	[_conv setFiles:strSrc impulse:strImpulse bgm:strBgm];
+	[AKOrchestra addInstrument:_conv];
 }
 
 ////////////////////////////////////////////////////////////////
@@ -172,7 +188,7 @@
 {
 	if (![self.navigationController.viewControllers containsObject:self]) {
 		// Backボタン
-		[conv stop];
+		[_conv stop];
 		_isPlaying = 0;
 	}
 	
@@ -196,10 +212,10 @@
 - (void)buttonPlayAct:(UIButton *)sender
 {
 	if (_isPlaying) {
-		[conv stop];
+		[_conv stop];
 		[sender setTitle:@"Start" forState:UIControlStateNormal];
 	} else {
-		[conv play];
+		[_conv play];
 		[sender setTitle:@"Stop" forState:UIControlStateNormal];
 	}
 	_isPlaying ^= 0x01;
