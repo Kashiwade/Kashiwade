@@ -69,8 +69,10 @@
 - (void)setFiles:(NSString *)strSrc impulse:(NSString *)strImpulse bgm:(NSString *)strBgm
 {
 	// INPUTS AND CONTROLS =================================================
-	_dishWellBalance = [self createPropertyWithValue:0 minimum:0 maximum:1.0];
-	_dryWetBalance   = [self createPropertyWithValue:0 minimum:0 maximum:0.1];
+//	_dishWellBalance = [self createPropertyWithValue:0.0 minimum:0.0 maximum:1.0];
+	_dishWellBalance = [self createPropertyWithValue:0.5 minimum:0.0 maximum:1.0];
+//	_dryWetBalance   = [self createPropertyWithValue:0.0 minimum:0.0 maximum:0.1];
+	_dryWetBalance   = [self createPropertyWithValue:0.01 minimum:0.0 maximum:0.1];
 	
 	// INSTRUMENT DEFINITION ===============================================
 	AKAudioInput *audioInput = [[AKAudioInput alloc] init];
@@ -92,11 +94,22 @@
 	
 	// add
 	if (strBgm.length > 0) {
-		NSString *fileBg = [[NSBundle mainBundle] pathForResource:strBgm ofType:@"wav"];
-		AKFileInput *background = [[AKFileInput alloc] initWithFilename:fileBg];
-		[background setLoop:YES];
+		// 無音とSEの AKMix で音量調整を実現
+		NSString *strFilePathSilence = [[NSBundle mainBundle] pathForResource:@"NoSound_stereo_44100" ofType:@"wav"];
+		AKFileInput *inputSilence = [[AKFileInput alloc] initWithFilename:strFilePathSilence];
+		[inputSilence setLoop:YES];
+		// stereo -> mono
+		AKMix *mixSilence = [[AKMix alloc] initMonoAudioFromStereoInput:inputSilence];
 		
-		[self setStereoAudioOutput:background];
+		NSString *strFilePathSE = [[NSBundle mainBundle] pathForResource:strBgm ofType:@"wav"];
+		AKFileInput *inputSE = [[AKFileInput alloc] initWithFilename:strFilePathSE];
+		[inputSE setLoop:YES];
+		// stereo -> mono
+		AKMix *mixSE = [[AKMix alloc] initMonoAudioFromStereoInput:inputSE];
+		
+		AKMix *balance = [[AKMix alloc] initWithInput1:mixSilence input2:mixSE balance:_dishWellBalance];
+		
+		[self setAudioOutput:balance];
 	}
 	
 	

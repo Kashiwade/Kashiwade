@@ -19,6 +19,7 @@
 	AKPropertySlider *_dryWetSlider;
 	AKPropertySlider *_dishStairwellSlider;
 //	AKAudioOutputPlot *plot;
+	UILabel *_labelSliderValue[2];
 	
 	BOOL _isPlaying;
     UILabel *labelKashiwade;
@@ -73,35 +74,6 @@
 		}
 	}
 	
-	// stereoの場合、「L」「R」は不要になる
-	NSArray *arLabelSubTitle = @[@[@"Dry", @"Wet"], @[@"L", @"R"]];
-	UILabel *labelSliderSubTitle[2][2];
-	for (int i = 0; i < 2; i++) {
-		for (int j = 0; j < 2; j++) {
-			labelSliderSubTitle[i][j] = [[UILabel alloc] init];
-			[labelSliderSubTitle[i][j] setFrame:CGRectMake(40.0 + (fWidth - 40.0 - 55.0) * j, 160.0 + 95.0 * i, 50.0, 30.0)];
-			[labelSliderSubTitle[i][j] setText:arLabelSubTitle[i][j]];
-			[labelSliderSubTitle[i][j] setLineBreakMode:NSLineBreakByWordWrapping];
-			[labelSliderSubTitle[i][j] setNumberOfLines:0];
-			[labelSliderSubTitle[i][j] setTextColor:[UIColor blackColor]];
-			[labelSliderSubTitle[i][j] setBackgroundColor:[UIColor clearColor]];
-//			[labelSliderSubTitle[i][j] setTextAlignment:NSTextAlignmentCenter];
-			[labelSliderSubTitle[i][j] setFont:[UIFont boldSystemFontOfSize:20.0]];
-			[self.view addSubview:labelSliderSubTitle[i][j]];
-		}
-	}
-	
-	////
-	_dryWetSlider = [[AKPropertySlider alloc] init];
-	_dryWetSlider.frame = CGRectMake(30.0, 195.0, fWidth - 40.0, 30.0);
-//	[_dryWetSlider addTarget:self action:@selector(sliderNBandEQChanged:) forControlEvents:UIControlEventValueChanged];
-	[self.view addSubview:_dryWetSlider];
-	
-	_dishStairwellSlider = [[AKPropertySlider alloc] init];
-	_dishStairwellSlider.frame = CGRectMake(30.0, 290.0, fWidth - 40.0, 30.0);
-//	[_dishStairwellSlider addTarget:self action:@selector(sliderNBandEQChanged:) forControlEvents:UIControlEventValueChanged];
-	[self.view addSubview:_dishStairwellSlider];
-	
 	UIButton *buttonPlay = [UIButton buttonWithType:UIButtonTypeCustom];
 	buttonPlay.tag = 1000;
 	[buttonPlay setFrame:CGRectMake(20.0, 80.0, fWidth - 40.0, 40.0)];
@@ -114,11 +86,51 @@
 	buttonPlay.layer.borderWidth = 2.0;
 	buttonPlay.layer.cornerRadius = 6.0;
 	buttonPlay.clipsToBounds = YES;
-	////
+	
+	NSArray *arLabelSubTitle = @[@"Dry", @"Wet"];
+	UILabel *labelSliderSubTitle[2];
+	for (int i = 0; i < 2; i++) {
+		labelSliderSubTitle[i] = [[UILabel alloc] init];
+		[labelSliderSubTitle[i] setFrame:CGRectMake(40.0 + (fWidth - 40.0 - 55.0) * i, 160.0, 50.0, 30.0)];
+		[labelSliderSubTitle[i] setText:arLabelSubTitle[i]];
+		[labelSliderSubTitle[i] setLineBreakMode:NSLineBreakByWordWrapping];
+		[labelSliderSubTitle[i] setNumberOfLines:0];
+		[labelSliderSubTitle[i] setTextColor:[UIColor blackColor]];
+		[labelSliderSubTitle[i] setBackgroundColor:[UIColor clearColor]];
+		[labelSliderSubTitle[i] setFont:[UIFont boldSystemFontOfSize:20.0]];
+		[self.view addSubview:labelSliderSubTitle[i]];
+	}
+	
+	_dryWetSlider = [[AKPropertySlider alloc] init];
+	_dryWetSlider.frame = CGRectMake(30.0, 195.0, fWidth - 40.0, 30.0);
+	[_dryWetSlider addTarget:self action:@selector(sliderDryWetChanged:) forControlEvents:UIControlEventValueChanged];
+	[self.view addSubview:_dryWetSlider];
+	
+	_dishStairwellSlider = [[AKPropertySlider alloc] init];
+	_dishStairwellSlider.frame = CGRectMake(30.0, 290.0, fWidth - 40.0, 30.0);
+	[_dishStairwellSlider addTarget:self action:@selector(sliderSEVolumeChanged:) forControlEvents:UIControlEventValueChanged];
+	[self.view addSubview:_dishStairwellSlider];
 	
 	_dryWetSlider.property = _conv.dryWetBalance;
 	_dishStairwellSlider.property = _conv.dishWellBalance;
-    
+	
+	// Slider の値を表示
+	float fSliderValue[] = {_dryWetSlider.value, _dishStairwellSlider.value};
+	for (int i = 0; i < 2; i++) {
+		_labelSliderValue[i] = [[UILabel alloc] init];
+		[_labelSliderValue[i] setFrame:CGRectMake(0.0, 0.0, 50.0, 30.0)];
+		[_labelSliderValue[i] setCenter:CGPointMake(fWidth * 0.5, 160.0 + 95.0 * i + 15.0)];
+		[_labelSliderValue[i] setText:[NSString stringWithFormat:@"%.2f", fSliderValue[i]]];
+		[_labelSliderValue[i] setLineBreakMode:NSLineBreakByWordWrapping];
+		[_labelSliderValue[i] setNumberOfLines:0];
+		[_labelSliderValue[i] setTextColor:[UIColor blackColor]];
+		[_labelSliderValue[i] setBackgroundColor:[UIColor clearColor]];
+		[_labelSliderValue[i] setTextAlignment:NSTextAlignmentCenter];
+		[_labelSliderValue[i] setFont:[UIFont boldSystemFontOfSize:20.0]];
+		[self.view addSubview:_labelSliderValue[i]];
+	}
+	
+	
     numKashiwade=0;
     labelKashiwade = [[UILabel alloc] initWithFrame:CGRectMake(20.0, 122.0, fWidth-80.0, 30.0)];
     labelKashiwade.textAlignment=NSTextAlignmentRight;
@@ -200,6 +212,9 @@
 	[super viewDidDisappear:animated];
 }
 
+////////////////////////////////////////////////////////////////
+#pragma mark -
+
 - (void)doKashiwade:(UIButton *)sender
 {
     numKashiwade++;
@@ -219,6 +234,16 @@
 		[sender setTitle:@"Stop" forState:UIControlStateNormal];
 	}
 	_isPlaying ^= 0x01;
+}
+
+- (void)sliderDryWetChanged:(AKPropertySlider *)sender
+{
+	_labelSliderValue[0].text = [NSString stringWithFormat:@"%.2f", _dryWetSlider.value];
+}
+
+- (void)sliderSEVolumeChanged:(AKPropertySlider *)sender
+{
+	_labelSliderValue[1].text = [NSString stringWithFormat:@"%.2f", _dishStairwellSlider.value];
 }
 
 @end

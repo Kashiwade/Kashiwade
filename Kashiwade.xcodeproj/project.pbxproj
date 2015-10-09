@@ -102,6 +102,7 @@
 		00AAE6DA1BC5CE1F006EA19A /* NCMBSetOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6771BC5CE1F006EA19A /* NCMBSetOperation.m */; settings = {ASSET_TAGS = (); }; };
 		00AAE6DB1BC5CE1F006EA19A /* SubClassHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6801BC5CE1F006EA19A /* SubClassHandler.m */; settings = {ASSET_TAGS = (); }; };
 		00AAE6DC1BC5CE1F006EA19A /* SubClassHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6801BC5CE1F006EA19A /* SubClassHandler.m */; settings = {ASSET_TAGS = (); }; };
+		BC0473811BC80CAF002CE57B /* NoSound_stereo_44100.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC0473801BC80CAF002CE57B /* NoSound_stereo_44100.wav */; settings = {ASSET_TAGS = (); }; };
 		BC3AA40A1BB66B8200B6A692 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3AA4091BB66B8200B6A692 /* Foundation.framework */; };
 		BC3AA40C1BB66B8200B6A692 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3AA40B1BB66B8200B6A692 /* CoreGraphics.framework */; };
 		BC3AA40E1BB66B8200B6A692 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3AA40D1BB66B8200B6A692 /* UIKit.framework */; };
@@ -292,6 +293,7 @@
 		00AAE67D1BC5CE1F006EA19A /* NCMBUser+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NCMBUser+Private.h"; sourceTree = "<group>"; };
 		00AAE67F1BC5CE1F006EA19A /* SubClassHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubClassHandler.h; sourceTree = "<group>"; };
 		00AAE6801BC5CE1F006EA19A /* SubClassHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubClassHandler.m; sourceTree = "<group>"; };
+		BC0473801BC80CAF002CE57B /* NoSound_stereo_44100.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = NoSound_stereo_44100.wav; sourceTree = "<group>"; };
 		BC3AA4061BB66B8200B6A692 /* Kashiwade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kashiwade.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC3AA4091BB66B8200B6A692 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BC3AA40B1BB66B8200B6A692 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -676,6 +678,7 @@
 			children = (
 				BC745AB91BC5084E0037A22A /* bktk-shinjuku-01_03may09.wav */,
 				BC745ABA1BC5084E0037A22A /* carpool_IR-9_LR.wav */,
+				BC0473801BC80CAF002CE57B /* NoSound_stereo_44100.wav */,
 				BC745ABB1BC5084E0037A22A /* pokemon _IR-9_LR.wav */,
 				BC745ABC1BC5084E0037A22A /* rooftop_IR-9_LR.wav */,
 				BC745ABD1BC5084E0037A22A /* TokyoBigSite_IR-9_LR.wav */,
@@ -875,6 +878,7 @@
 				BCF184D21BBC692C0027AD2E /* pokemon.jpg in Resources */,
 				BCF184D11BBC692C0027AD2E /* carpool.jpg in Resources */,
 				BC745AD61BC508E20037A22A /* bktk-shinjuku-01_03may09_44116mono.wav in Resources */,
+				BC0473811BC80CAF002CE57B /* NoSound_stereo_44100.wav in Resources */,
 				BCF184D41BBC692C0027AD2E /* tokyoBigSiteBasement.jpg in Resources */,
 				BC745ABE1BC5084E0037A22A /* bktk-shinjuku-01_03may09.wav in Resources */,
 				BC745AC21BC5084E0037A22A /* TokyoBigSite_IR-9_LR.wav in Resources */,
