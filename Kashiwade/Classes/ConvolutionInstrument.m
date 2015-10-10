@@ -81,7 +81,7 @@
 	NSString *strPathImpulse = [[NSBundle mainBundle] pathForResource:strImpulse ofType:@"wav"];
 	
     // kashiwade sound
-    [self prepareclap];
+    [self prepareclap:strImpulse];
 
 	// stereoでたたみ込み
 	AKStereoConvolution *convImpulse = [[AKStereoConvolution alloc] initWithInput:audioInput impulseResponseFilename:strPathImpulse];
@@ -122,16 +122,23 @@
 	[self assignOutput:_auxilliaryOutput to:dryWet];
 }
 
-- (void)prepareclap
+- (void)prepareclap:(NSString *)strImpulse
 {
+    AKInstrumentProperty* loopgain = [self createPropertyWithValue:0.08 minimum:0.0 maximum:1.0];
     NSString *file=[[NSBundle mainBundle] pathForResource:@"kashiwade" ofType:@"wav"];
     AKSoundFileTable *fileTable = [[AKSoundFileTable alloc] initWithFilename:file];
     AKStereoSoundFileLooper* filelooper=[AKStereoSoundFileLooper looperWithSoundFile:fileTable];
+    filelooper.amplitude=loopgain;
     filelooper.loopMode = [AKStereoSoundFileLooper loopPlaysOnce];
+    NSString *strPathImpulse = [[NSBundle mainBundle] pathForResource:strImpulse ofType:@"wav"];
+    AKMix *mix = [[AKMix alloc] initMonoAudioFromStereoInput:filelooper];
+    
+    AKStereoConvolution *convImpulse = [[AKStereoConvolution alloc] initWithInput:mix impulseResponseFilename:strPathImpulse];
     AKInstrument* clapinstument=[[AKInstrument alloc]init];
-    [clapinstument setAudioOutput:filelooper];
+
+    [clapinstument setAudioOutput:convImpulse];
     clapnote=[[AKNote alloc] initWithInstrument:clapinstument];
-    [AKOrchestra updateInstrument:clapinstument];    
+    [AKOrchestra updateInstrument:clapinstument];
 }
 
 - (void)clap
