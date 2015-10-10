@@ -78,6 +78,9 @@
 	
 	NSString *strPathImpulse = [[NSBundle mainBundle] pathForResource:strImpulse ofType:@"wav"];
 	
+    // kashiwade sound
+    [self prepareclap];
+
 	// stereoでたたみ込み
 	AKStereoConvolution *convImpulse = [[AKStereoConvolution alloc] initWithInput:audioInput impulseResponseFilename:strPathImpulse];
 	// stereo -> mono
@@ -104,6 +107,23 @@
 	// After your instrument is set up, define outputs available to others
 	_auxilliaryOutput = [AKAudio globalParameter];
 	[self assignOutput:_auxilliaryOutput to:dryWet];
+}
+
+- (void)prepareclap
+{
+    NSString *file=[[NSBundle mainBundle] pathForResource:@"kashiwade" ofType:@"wav"];
+    AKSoundFileTable *fileTable = [[AKSoundFileTable alloc] initWithFilename:file];
+    AKStereoSoundFileLooper* filelooper=[AKStereoSoundFileLooper looperWithSoundFile:fileTable];
+    filelooper.loopMode = [AKStereoSoundFileLooper loopPlaysOnce];
+    AKInstrument* clapinstument=[[AKInstrument alloc]init];
+    [clapinstument setAudioOutput:filelooper];
+    clapnote=[[AKNote alloc] initWithInstrument:clapinstument];
+    [AKOrchestra updateInstrument:clapinstument];    
+}
+
+- (void)clap
+{
+    [clapnote play];    
 }
 
 @end

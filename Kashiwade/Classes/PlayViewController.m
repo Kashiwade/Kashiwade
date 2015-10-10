@@ -204,6 +204,7 @@
 {
     numKashiwade++;
     labelKashiwade.text=[NSString stringWithFormat:@"%d柏手", numKashiwade];
+    [_conv clap];
 }
 
 ////////////////////////////////////////////////////////////////
