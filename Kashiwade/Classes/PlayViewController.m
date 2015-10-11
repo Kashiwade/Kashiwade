@@ -11,6 +11,7 @@
 #import "ConvolutionInstrument.h"
 #import "AKAudioAnalyzer.h"
 //#import "AKAudioOutputPlot.h"
+#import "KashiwadeDB.h"
 
 @implementation PlayViewController
 {
@@ -23,8 +24,6 @@
 	
 	BOOL _isPlaying;
     UILabel *labelKashiwade;
-    
-    int numKashiwade; // todo: 仮 サーバー側のデータベースに置く
 }
 
 - (id)init
@@ -130,11 +129,9 @@
 		[self.view addSubview:_labelSliderValue[i]];
 	}
 	
-	
-    numKashiwade=0;
     labelKashiwade = [[UILabel alloc] initWithFrame:CGRectMake(20.0, 122.0, fWidth-80.0, 30.0)];
     labelKashiwade.textAlignment=NSTextAlignmentRight;
-    labelKashiwade.text=[NSString stringWithFormat:@"%d柏手", numKashiwade];
+    labelKashiwade.text=[NSString stringWithFormat:@"%d柏手", [KashiwadeDB getNum:self.title]];
     [self.view addSubview:labelKashiwade];
     
     UIImage *imageKashiwade1 = [UIImage imageNamed:@"clap_1_c.png"];
@@ -217,8 +214,7 @@
 
 - (void)doKashiwade:(UIButton *)sender
 {
-    numKashiwade++;
-    labelKashiwade.text=[NSString stringWithFormat:@"%d柏手", numKashiwade];
+    labelKashiwade.text=[NSString stringWithFormat:@"%d柏手", [KashiwadeDB incNum:self.title]];
     [_conv clap];
 }
 

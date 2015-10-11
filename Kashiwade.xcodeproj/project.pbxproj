@@ -10,6 +10,8 @@
 		000281A71BBFBB3A004FBCE8 /* clap_1_c.png in Resources */ = {isa = PBXBuildFile; fileRef = 000281A51BBFBB3A004FBCE8 /* clap_1_c.png */; };
 		000281A81BBFBB3A004FBCE8 /* clap_2_c.png in Resources */ = {isa = PBXBuildFile; fileRef = 000281A61BBFBB3A004FBCE8 /* clap_2_c.png */; };
 		000281AE1BBFCC13004FBCE8 /* kashiwade.wav in Resources */ = {isa = PBXBuildFile; fileRef = 000281AD1BBFCC13004FBCE8 /* kashiwade.wav */; };
+		000E418B1BC9F88F00735CBE /* KashiwadeDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 000E418A1BC9F88F00735CBE /* KashiwadeDB.m */; settings = {ASSET_TAGS = (); }; };
+		000E418C1BC9F88F00735CBE /* KashiwadeDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 000E418A1BC9F88F00735CBE /* KashiwadeDB.m */; settings = {ASSET_TAGS = (); }; };
 		00AAE6811BC5CE1F006EA19A /* NCMB.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6131BC5CE1F006EA19A /* NCMB.m */; settings = {ASSET_TAGS = (); }; };
 		00AAE6821BC5CE1F006EA19A /* NCMB.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6131BC5CE1F006EA19A /* NCMB.m */; settings = {ASSET_TAGS = (); }; };
 		00AAE6831BC5CE1F006EA19A /* NCMB_Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00AAE6141BC5CE1F006EA19A /* NCMB_Info.plist */; settings = {ASSET_TAGS = (); }; };
@@ -193,6 +195,8 @@
 		000281A51BBFBB3A004FBCE8 /* clap_1_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clap_1_c.png; sourceTree = "<group>"; };
 		000281A61BBFBB3A004FBCE8 /* clap_2_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clap_2_c.png; sourceTree = "<group>"; };
 		000281AD1BBFCC13004FBCE8 /* kashiwade.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = kashiwade.wav; sourceTree = "<group>"; };
+		000E41891BC9F88F00735CBE /* KashiwadeDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KashiwadeDB.h; sourceTree = "<group>"; };
+		000E418A1BC9F88F00735CBE /* KashiwadeDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KashiwadeDB.m; sourceTree = "<group>"; };
 		00AAE6121BC5CE1F006EA19A /* NCMB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMB.h; sourceTree = "<group>"; };
 		00AAE6131BC5CE1F006EA19A /* NCMB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMB.m; sourceTree = "<group>"; };
 		00AAE6141BC5CE1F006EA19A /* NCMB_Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NCMB_Info.plist; sourceTree = "<group>"; };
@@ -730,6 +734,8 @@
 				BCF184AB1BBC5F790027AD2E /* PlayViewController.m */,
 				BCF184E51BBCD0C10027AD2E /* ConvolutionInstrument.h */,
 				BCF184E61BBCD0C10027AD2E /* ConvolutionInstrument.m */,
+				000E41891BC9F88F00735CBE /* KashiwadeDB.h */,
+				000E418A1BC9F88F00735CBE /* KashiwadeDB.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -957,6 +963,7 @@
 				00AAE6D31BC5CE1F006EA19A /* NCMBIncrementOperation.m in Sources */,
 				00AAE6A31BC5CE1F006EA19A /* NCMBRichPushView.m in Sources */,
 				00AAE6A51BC5CE1F006EA19A /* NCMBRole.m in Sources */,
+				000E418B1BC9F88F00735CBE /* KashiwadeDB.m in Sources */,
 				00AAE68B1BC5CE1F006EA19A /* NCMBError.m in Sources */,
 				00AAE68D1BC5CE1F006EA19A /* NCMBFacebookUtils.m in Sources */,
 				00AAE6B71BC5CE1F006EA19A /* NCMBOADataFetcher.m in Sources */,
@@ -1019,6 +1026,7 @@
 				00AAE6961BC5CE1F006EA19A /* NCMBInstallation.m in Sources */,
 				00AAE6AE1BC5CE1F006EA19A /* NSURLBase.m in Sources */,
 				00AAE6CC1BC5CE1F006EA19A /* NSDataBase64Encode.m in Sources */,
+				000E418C1BC9F88F00735CBE /* KashiwadeDB.m in Sources */,
 				00AAE6B61BC5CE1F006EA19A /* NCMBOAConsumer.m in Sources */,
 				00AAE6941BC5CE1F006EA19A /* NCMBGoogleUtils.m in Sources */,
 				00AAE6981BC5CE1F006EA19A /* NCMBObject.m in Sources */,

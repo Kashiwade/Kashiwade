@@ -8,11 +8,13 @@
 
 #import "ViewController.h"
 #import "PlayViewController.h"
+#import "KashiwadeDB.h"
 
 @interface ViewController ()
 {
 	MKMapView *_mapView;
 	CLLocationManager *_locationManager;
+    KashiwadeDB* kashiwadeDB;
 }
 @end
 
@@ -29,6 +31,8 @@
 - (void)viewDidLoad
 {
 	[super viewDidLoad];
+
+    [KashiwadeDB getNum:@""]; // dummy read for initialize
 	
 	self.view.backgroundColor = [UIColor lightGrayColor];
 	
