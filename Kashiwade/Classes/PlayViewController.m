@@ -165,6 +165,9 @@
 	[_conv setFiles:strSrc impulseL:strImpulseL impulseR:strImpulseR bgm:strBgm];
 	[AKOrchestra addInstrument:_conv];
 	
+	// kashiwade sound
+	[_conv prepareclap:strImpulseL];
+	
 	/*
 //	AKAudioAnalyzer *analyzer = [[AKAudioAnalyzer alloc] initWithInput:conv.auxilliaryOutput];
 	AKAudioAnalyzer *analyzer = [[AKAudioAnalyzer alloc] initWithAudioSource:conv.auxilliaryOutput];
@@ -179,6 +182,9 @@
 	_conv = [[ConvolutionInstrument alloc] init];
 	[_conv setFiles:strSrc impulse:strImpulse bgm:strBgm];
 	[AKOrchestra addInstrument:_conv];
+	
+	// kashiwade sound
+	[_conv prepareclap:strImpulse];
 }
 
 ////////////////////////////////////////////////////////////////
