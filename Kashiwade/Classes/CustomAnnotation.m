@@ -10,13 +10,14 @@
 
 @implementation CustomAnnotation
 
-- (id)initWithCoordinates:(CLLocationCoordinate2D)coordinate2D newTitle:(NSString *)strTitle newSubTitle:(NSString *)strSubTitle
+- (id)initWithCoordinates:(CLLocationCoordinate2D)coordinate2D newTitle:(NSString *)strTitle newSubTitle:(NSString *)strSubTitle type:(int)type
 {
 	self = [super self];
 	if (self != nil) {
 		_coordinate = coordinate2D;
 		_title = strTitle;
 		_subtitle = strSubTitle;
+        _type = type;
 	}
 	return self;
 }

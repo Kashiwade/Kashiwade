@@ -14,7 +14,8 @@
 {
 	MKMapView *_mapView;
 	CLLocationManager *_locationManager;
-    KashiwadeDB* kashiwadeDB;
+    KashiwadeDB *kashiwadeDB;
+    NSMutableDictionary *annotations;
 }
 @end
 
@@ -32,7 +33,12 @@
 {
 	[super viewDidLoad];
 
-    [KashiwadeDB getNum:@""]; // dummy read for initialize
+    [KashiwadeDB getNum:@""]; // dummy read for KashiwadeDB initialize
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(doDataUpdated:)
+                                                 name:@"DataUpdated"
+                                               object:nil];
+    
 	
 	self.view.backgroundColor = [UIColor lightGrayColor];
 	
@@ -62,10 +68,10 @@
 	coordinateRegion.span.longitudeDelta = 0.5;
 	[_mapView setRegion:coordinateRegion animated:NO];
 	
+    annotations=[[NSMutableDictionary alloc] init];
 	for (int i = 0; i < [ARRAY_GMS_MARKER_TITLE count]; i++) {
 		[self createPin:LATITUDE[i] longitude:LONGTIDE[i] title:ARRAY_GMS_MARKER_TITLE[i] subTitle:@""];
 	}
-	
 }
 
 - (void)didReceiveMemoryWarning
@@ -89,8 +95,9 @@
 	// 経度緯度
 	CLLocationCoordinate2D locationCoordinate = CLLocationCoordinate2DMake(latitude, longitude);
 	
-	CustomAnnotation *customAnnotation = [[CustomAnnotation alloc] initWithCoordinates:locationCoordinate newTitle:title newSubTitle:subTitle];
+	CustomAnnotation *customAnnotation = [[CustomAnnotation alloc] initWithCoordinates:locationCoordinate newTitle:title newSubTitle:subTitle type:0];
 	[_mapView addAnnotation:customAnnotation];
+    [annotations setObject:customAnnotation forKey:title];
 }
 
 ////////////////////////////////////////////////////////////////
@@ -120,6 +127,35 @@
 	[super viewDidDisappear:animated];
 }
 
+////////////////////////////////////////////////////////////////
+#pragma mark -
+- (MKOverlayView *)mapView:(MKMapView *)mapView
+            viewForOverlay:(id<MKOverlay>)overlay {
+    MKPolylineView *view = [[MKPolylineView alloc] initWithOverlay:overlay];
+    return view;
+}
+- (void)doDataUpdated:(NSNotification *)center
+{
+    NSString* key=[center.userInfo objectForKey:@"key"];
+    int num=[KashiwadeDB getNum:key];
+    NSLog(@"key:%@,num:%d",key,num);
+    CustomAnnotation* annotation=annotations[key];
+    CustomAnnotation *customAnnotation = [[CustomAnnotation alloc] initWithCoordinates:annotation.coordinate
+                                                                              newTitle:annotation.title
+                                                                           newSubTitle:annotation.subtitle
+                                                                                  type:1];
+    [_mapView addAnnotation:customAnnotation];
+    
+    [NSTimer scheduledTimerWithTimeInterval:1.0
+                                     target:self
+                                   selector:@selector(deleteClapPin:)
+                                   userInfo:customAnnotation
+                                    repeats:NO];
+}
+- (void)deleteClapPin:(NSTimer*)timer
+{
+    [_mapView removeAnnotation:[timer userInfo]];
+}
 ////////////////////////////////////////////////////////////////
 #pragma mark -
 
@@ -161,14 +197,19 @@
 		annotationView = [[MKAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:identifier];
 	}
  
-	// 画像を設定
-	annotationView.image = [UIImage imageNamed:@"map_pin"];
-	annotationView.canShowCallout = YES;  // この設定でポップアップが出る
-	annotationView.annotation = annotation;
-	
-	// ポップアップ上のボタンの種類を指定（ここがないとタッチできない）
-	UIButton *detailButton = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
-	annotationView.rightCalloutAccessoryView = detailButton;
+    CustomAnnotation *custumAnnotation = (CustomAnnotation *)annotation;
+    if (custumAnnotation.type==1) {
+        annotationView.image = [UIImage imageNamed:@"clap_pin"];
+    } else {
+        // 画像を設定
+        annotationView.image = [UIImage imageNamed:@"map_pin"];
+        annotationView.canShowCallout = YES;  // この設定でポップアップが出る
+        annotationView.annotation = annotation;
+        
+        // ポップアップ上のボタンの種類を指定（ここがないとタッチできない）
+        UIButton *detailButton = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
+        annotationView.rightCalloutAccessoryView = detailButton;
+    }
 	
 	return annotationView;
 }

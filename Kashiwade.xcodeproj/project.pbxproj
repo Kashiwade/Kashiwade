@@ -12,6 +12,8 @@
 		000281AE1BBFCC13004FBCE8 /* kashiwade.wav in Resources */ = {isa = PBXBuildFile; fileRef = 000281AD1BBFCC13004FBCE8 /* kashiwade.wav */; };
 		000E418B1BC9F88F00735CBE /* KashiwadeDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 000E418A1BC9F88F00735CBE /* KashiwadeDB.m */; settings = {ASSET_TAGS = (); }; };
 		000E418C1BC9F88F00735CBE /* KashiwadeDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 000E418A1BC9F88F00735CBE /* KashiwadeDB.m */; settings = {ASSET_TAGS = (); }; };
+		008971D31BCA45F800EE0782 /* clap_pin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 008971D21BCA45F800EE0782 /* clap_pin@2x.png */; settings = {ASSET_TAGS = (); }; };
+		008971D41BCA45F800EE0782 /* clap_pin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 008971D21BCA45F800EE0782 /* clap_pin@2x.png */; settings = {ASSET_TAGS = (); }; };
 		00AAE6811BC5CE1F006EA19A /* NCMB.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6131BC5CE1F006EA19A /* NCMB.m */; settings = {ASSET_TAGS = (); }; };
 		00AAE6821BC5CE1F006EA19A /* NCMB.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6131BC5CE1F006EA19A /* NCMB.m */; settings = {ASSET_TAGS = (); }; };
 		00AAE6831BC5CE1F006EA19A /* NCMB_Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00AAE6141BC5CE1F006EA19A /* NCMB_Info.plist */; settings = {ASSET_TAGS = (); }; };
@@ -197,6 +199,7 @@
 		000281AD1BBFCC13004FBCE8 /* kashiwade.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = kashiwade.wav; sourceTree = "<group>"; };
 		000E41891BC9F88F00735CBE /* KashiwadeDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KashiwadeDB.h; sourceTree = "<group>"; };
 		000E418A1BC9F88F00735CBE /* KashiwadeDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KashiwadeDB.m; sourceTree = "<group>"; };
+		008971D21BCA45F800EE0782 /* clap_pin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clap_pin@2x.png"; sourceTree = "<group>"; };
 		00AAE6121BC5CE1F006EA19A /* NCMB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMB.h; sourceTree = "<group>"; };
 		00AAE6131BC5CE1F006EA19A /* NCMB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMB.m; sourceTree = "<group>"; };
 		00AAE6141BC5CE1F006EA19A /* NCMB_Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NCMB_Info.plist; sourceTree = "<group>"; };
@@ -743,6 +746,7 @@
 		BCF184AD1BBC61480027AD2E /* image */ = {
 			isa = PBXGroup;
 			children = (
+				008971D21BCA45F800EE0782 /* clap_pin@2x.png */,
 				BCF184B31BBC61480027AD2E /* map_pin@2x.png */,
 				000281A51BBFBB3A004FBCE8 /* clap_1_c.png */,
 				000281A61BBFBB3A004FBCE8 /* clap_2_c.png */,
@@ -885,6 +889,7 @@
 			files = (
 				BC04738B1BC8ABAC002CE57B /* NoSound_stereo_44100.wav in Resources */,
 				BC3AA4221BB66B8200B6A692 /* Images.xcassets in Resources */,
+				008971D31BCA45F800EE0782 /* clap_pin@2x.png in Resources */,
 				BC0473B81BC8ABB9002CE57B /* pokemon _IR-9_LR.wav in Resources */,
 				BC0473AC1BC8ABB9002CE57B /* rooftop_SE-9.wav in Resources */,
 				BC0473B41BC8ABB9002CE57B /* TokyoBigSite_IR-9_L.wav in Resources */,
@@ -920,6 +925,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				008971D41BCA45F800EE0782 /* clap_pin@2x.png in Resources */,
 				00AAE6841BC5CE1F006EA19A /* NCMB_Info.plist in Resources */,
 				BC3AA4331BB66B8200B6A692 /* InfoPlist.strings in Resources */,
 			);
