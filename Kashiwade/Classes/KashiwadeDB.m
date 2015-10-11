@@ -85,6 +85,12 @@
                 [incValue setObject:@0 forKey:key];
                 [post setObject:[NSNumber numberWithInt:num] forKey:@"num"];
                 [post saveInBackgroundWithBlock:nil];
+
+                
+                [[NSNotificationCenter defaultCenter] postNotificationName:@"DataUpdated"
+                                                                    object:self
+                                                                  userInfo:@{@"key":key}];
+                 
                 // 再取得
                 [post refresh:nil];
             }

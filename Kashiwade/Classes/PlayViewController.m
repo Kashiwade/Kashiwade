@@ -144,6 +144,11 @@
     [buttonKashiwade addTarget:self action:@selector(doKashiwade:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:buttonKashiwade];
 
+    [[NSNotificationCenter defaultCenter] addObserver:self
+           selector:@selector(updateData:)
+               name:@"DataUpdated"
+             object:nil];
+
     /*
 	plot = [[AKAudioOutputPlot alloc] init];
 	plot.frame = CGRectMake(10, 377, 300, 200);
@@ -216,6 +221,12 @@
 {
     labelKashiwade.text=[NSString stringWithFormat:@"%d柏手", [KashiwadeDB incNum:self.title]];
     [_conv clap];
+}
+- (void)updateData:(NSNotification *)center
+{
+    if([self.title compare:[center.userInfo objectForKey:@"key"]] == NSOrderedSame) {
+        labelKashiwade.text=[NSString stringWithFormat:@"%d柏手", [KashiwadeDB getNum:self.title]];
+    }
 }
 
 ////////////////////////////////////////////////////////////////
