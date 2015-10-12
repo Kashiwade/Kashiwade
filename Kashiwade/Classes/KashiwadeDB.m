@@ -44,7 +44,7 @@
         [incValue setObject:@0 forKey:@"ビッグサイト"];
         [incValue setObject:@0 forKey:@"ポケモンセンター"];
         [NSTimer
-         scheduledTimerWithTimeInterval:1.0f
+         scheduledTimerWithTimeInterval:30.0f
          target:self
          selector:@selector(sync:)
          userInfo:nil
