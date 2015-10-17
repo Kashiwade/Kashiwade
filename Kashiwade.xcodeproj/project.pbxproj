@@ -14,98 +14,6 @@
 		000E418C1BC9F88F00735CBE /* KashiwadeDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 000E418A1BC9F88F00735CBE /* KashiwadeDB.m */; settings = {ASSET_TAGS = (); }; };
 		008971D31BCA45F800EE0782 /* clap_pin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 008971D21BCA45F800EE0782 /* clap_pin@2x.png */; settings = {ASSET_TAGS = (); }; };
 		008971D41BCA45F800EE0782 /* clap_pin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 008971D21BCA45F800EE0782 /* clap_pin@2x.png */; settings = {ASSET_TAGS = (); }; };
-		00AAE6811BC5CE1F006EA19A /* NCMB.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6131BC5CE1F006EA19A /* NCMB.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6821BC5CE1F006EA19A /* NCMB.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6131BC5CE1F006EA19A /* NCMB.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6831BC5CE1F006EA19A /* NCMB_Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00AAE6141BC5CE1F006EA19A /* NCMB_Info.plist */; settings = {ASSET_TAGS = (); }; };
-		00AAE6841BC5CE1F006EA19A /* NCMB_Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00AAE6141BC5CE1F006EA19A /* NCMB_Info.plist */; settings = {ASSET_TAGS = (); }; };
-		00AAE6851BC5CE1F006EA19A /* NCMBACL.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6161BC5CE1F006EA19A /* NCMBACL.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6861BC5CE1F006EA19A /* NCMBACL.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6161BC5CE1F006EA19A /* NCMBACL.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6871BC5CE1F006EA19A /* NCMBAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6181BC5CE1F006EA19A /* NCMBAnalytics.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6881BC5CE1F006EA19A /* NCMBAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6181BC5CE1F006EA19A /* NCMBAnalytics.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6891BC5CE1F006EA19A /* NCMBAnonymousUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE61A1BC5CE1F006EA19A /* NCMBAnonymousUtils.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE68A1BC5CE1F006EA19A /* NCMBAnonymousUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE61A1BC5CE1F006EA19A /* NCMBAnonymousUtils.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE68B1BC5CE1F006EA19A /* NCMBError.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE61D1BC5CE1F006EA19A /* NCMBError.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE68C1BC5CE1F006EA19A /* NCMBError.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE61D1BC5CE1F006EA19A /* NCMBError.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE68D1BC5CE1F006EA19A /* NCMBFacebookUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE61F1BC5CE1F006EA19A /* NCMBFacebookUtils.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE68E1BC5CE1F006EA19A /* NCMBFacebookUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE61F1BC5CE1F006EA19A /* NCMBFacebookUtils.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE68F1BC5CE1F006EA19A /* NCMBFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6211BC5CE1F006EA19A /* NCMBFile.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6901BC5CE1F006EA19A /* NCMBFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6211BC5CE1F006EA19A /* NCMBFile.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6911BC5CE1F006EA19A /* NCMBGeoPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6231BC5CE1F006EA19A /* NCMBGeoPoint.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6921BC5CE1F006EA19A /* NCMBGeoPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6231BC5CE1F006EA19A /* NCMBGeoPoint.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6931BC5CE1F006EA19A /* NCMBGoogleUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6261BC5CE1F006EA19A /* NCMBGoogleUtils.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6941BC5CE1F006EA19A /* NCMBGoogleUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6261BC5CE1F006EA19A /* NCMBGoogleUtils.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6951BC5CE1F006EA19A /* NCMBInstallation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6281BC5CE1F006EA19A /* NCMBInstallation.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6961BC5CE1F006EA19A /* NCMBInstallation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6281BC5CE1F006EA19A /* NCMBInstallation.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6971BC5CE1F006EA19A /* NCMBObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE62B1BC5CE1F006EA19A /* NCMBObject.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6981BC5CE1F006EA19A /* NCMBObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE62B1BC5CE1F006EA19A /* NCMBObject.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6991BC5CE1F006EA19A /* NCMBPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE62D1BC5CE1F006EA19A /* NCMBPush.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE69A1BC5CE1F006EA19A /* NCMBPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE62D1BC5CE1F006EA19A /* NCMBPush.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE69B1BC5CE1F006EA19A /* NCMBQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE62F1BC5CE1F006EA19A /* NCMBQuery.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE69C1BC5CE1F006EA19A /* NCMBQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE62F1BC5CE1F006EA19A /* NCMBQuery.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE69D1BC5CE1F006EA19A /* NCMBReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6321BC5CE1F006EA19A /* NCMBReachability.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE69E1BC5CE1F006EA19A /* NCMBReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6321BC5CE1F006EA19A /* NCMBReachability.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE69F1BC5CE1F006EA19A /* NCMBRelation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6341BC5CE1F006EA19A /* NCMBRelation.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6A01BC5CE1F006EA19A /* NCMBRelation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6341BC5CE1F006EA19A /* NCMBRelation.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6A11BC5CE1F006EA19A /* NCMBCloseImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6371BC5CE1F006EA19A /* NCMBCloseImageView.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6A21BC5CE1F006EA19A /* NCMBCloseImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6371BC5CE1F006EA19A /* NCMBCloseImageView.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6A31BC5CE1F006EA19A /* NCMBRichPushView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6391BC5CE1F006EA19A /* NCMBRichPushView.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6A41BC5CE1F006EA19A /* NCMBRichPushView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6391BC5CE1F006EA19A /* NCMBRichPushView.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6A51BC5CE1F006EA19A /* NCMBRole.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE63B1BC5CE1F006EA19A /* NCMBRole.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6A61BC5CE1F006EA19A /* NCMBRole.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE63B1BC5CE1F006EA19A /* NCMBRole.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6A71BC5CE1F006EA19A /* NCMB_Twitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE63E1BC5CE1F006EA19A /* NCMB_Twitter.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6A81BC5CE1F006EA19A /* NCMB_Twitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE63E1BC5CE1F006EA19A /* NCMB_Twitter.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6A91BC5CE1F006EA19A /* NSMutableURLRequestParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6421BC5CE1F006EA19A /* NSMutableURLRequestParameters.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6AA1BC5CE1F006EA19A /* NSMutableURLRequestParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6421BC5CE1F006EA19A /* NSMutableURLRequestParameters.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6AB1BC5CE1F006EA19A /* NSStringURLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6441BC5CE1F006EA19A /* NSStringURLEncoding.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6AC1BC5CE1F006EA19A /* NSStringURLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6441BC5CE1F006EA19A /* NSStringURLEncoding.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6AD1BC5CE1F006EA19A /* NSURLBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6461BC5CE1F006EA19A /* NSURLBase.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6AE1BC5CE1F006EA19A /* NSURLBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6461BC5CE1F006EA19A /* NSURLBase.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6AF1BC5CE1F006EA19A /* Base64Transcoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6481BC5CE1F006EA19A /* Base64Transcoder.c */; settings = {ASSET_TAGS = (); }; };
-		00AAE6B01BC5CE1F006EA19A /* Base64Transcoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6481BC5CE1F006EA19A /* Base64Transcoder.c */; settings = {ASSET_TAGS = (); }; };
-		00AAE6B11BC5CE1F006EA19A /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE64A1BC5CE1F006EA19A /* hmac.c */; settings = {ASSET_TAGS = (); }; };
-		00AAE6B21BC5CE1F006EA19A /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE64A1BC5CE1F006EA19A /* hmac.c */; settings = {ASSET_TAGS = (); }; };
-		00AAE6B31BC5CE1F006EA19A /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE64C1BC5CE1F006EA19A /* sha1.c */; settings = {ASSET_TAGS = (); }; };
-		00AAE6B41BC5CE1F006EA19A /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE64C1BC5CE1F006EA19A /* sha1.c */; settings = {ASSET_TAGS = (); }; };
-		00AAE6B51BC5CE1F006EA19A /* NCMBOAConsumer.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE64F1BC5CE1F006EA19A /* NCMBOAConsumer.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6B61BC5CE1F006EA19A /* NCMBOAConsumer.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE64F1BC5CE1F006EA19A /* NCMBOAConsumer.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6B71BC5CE1F006EA19A /* NCMBOADataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6511BC5CE1F006EA19A /* NCMBOADataFetcher.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6B81BC5CE1F006EA19A /* NCMBOADataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6511BC5CE1F006EA19A /* NCMBOADataFetcher.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6B91BC5CE1F006EA19A /* NCMBOAHMAC_SHA1SignatureProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6531BC5CE1F006EA19A /* NCMBOAHMAC_SHA1SignatureProvider.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6BA1BC5CE1F006EA19A /* NCMBOAHMAC_SHA1SignatureProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6531BC5CE1F006EA19A /* NCMBOAHMAC_SHA1SignatureProvider.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6BB1BC5CE1F006EA19A /* NCMBOAMutableURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6551BC5CE1F006EA19A /* NCMBOAMutableURLRequest.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6BC1BC5CE1F006EA19A /* NCMBOAMutableURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6551BC5CE1F006EA19A /* NCMBOAMutableURLRequest.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6BD1BC5CE1F006EA19A /* NCMBOARequestParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6571BC5CE1F006EA19A /* NCMBOARequestParameter.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6BE1BC5CE1F006EA19A /* NCMBOARequestParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6571BC5CE1F006EA19A /* NCMBOARequestParameter.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6BF1BC5CE1F006EA19A /* NCMBOAServiceTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6591BC5CE1F006EA19A /* NCMBOAServiceTicket.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6C01BC5CE1F006EA19A /* NCMBOAServiceTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6591BC5CE1F006EA19A /* NCMBOAServiceTicket.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6C11BC5CE1F006EA19A /* NCMBOAToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE65C1BC5CE1F006EA19A /* NCMBOAToken.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6C21BC5CE1F006EA19A /* NCMBOAToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE65C1BC5CE1F006EA19A /* NCMBOAToken.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6C31BC5CE1F006EA19A /* NCMBTwitterLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE65E1BC5CE1F006EA19A /* NCMBTwitterLoginView.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6C41BC5CE1F006EA19A /* NCMBTwitterLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE65E1BC5CE1F006EA19A /* NCMBTwitterLoginView.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6C51BC5CE1F006EA19A /* NCMBTwitterUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6601BC5CE1F006EA19A /* NCMBTwitterUtils.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6C61BC5CE1F006EA19A /* NCMBTwitterUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6601BC5CE1F006EA19A /* NCMBTwitterUtils.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6C71BC5CE1F006EA19A /* NCMBURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6631BC5CE1F006EA19A /* NCMBURLConnection.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6C81BC5CE1F006EA19A /* NCMBURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6631BC5CE1F006EA19A /* NCMBURLConnection.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6C91BC5CE1F006EA19A /* NCMBUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6651BC5CE1F006EA19A /* NCMBUser.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6CA1BC5CE1F006EA19A /* NCMBUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6651BC5CE1F006EA19A /* NCMBUser.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6CB1BC5CE1F006EA19A /* NSDataBase64Encode.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6681BC5CE1F006EA19A /* NSDataBase64Encode.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6CC1BC5CE1F006EA19A /* NSDataBase64Encode.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6681BC5CE1F006EA19A /* NSDataBase64Encode.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6CD1BC5CE1F006EA19A /* NCMBAddOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE66B1BC5CE1F006EA19A /* NCMBAddOperation.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6CE1BC5CE1F006EA19A /* NCMBAddOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE66B1BC5CE1F006EA19A /* NCMBAddOperation.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6CF1BC5CE1F006EA19A /* NCMBAddUniqueOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE66D1BC5CE1F006EA19A /* NCMBAddUniqueOperation.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6D01BC5CE1F006EA19A /* NCMBAddUniqueOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE66D1BC5CE1F006EA19A /* NCMBAddUniqueOperation.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6D11BC5CE1F006EA19A /* NCMBDeleteOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE66F1BC5CE1F006EA19A /* NCMBDeleteOperation.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6D21BC5CE1F006EA19A /* NCMBDeleteOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE66F1BC5CE1F006EA19A /* NCMBDeleteOperation.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6D31BC5CE1F006EA19A /* NCMBIncrementOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6711BC5CE1F006EA19A /* NCMBIncrementOperation.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6D41BC5CE1F006EA19A /* NCMBIncrementOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6711BC5CE1F006EA19A /* NCMBIncrementOperation.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6D51BC5CE1F006EA19A /* NCMBRelationOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6731BC5CE1F006EA19A /* NCMBRelationOperation.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6D61BC5CE1F006EA19A /* NCMBRelationOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6731BC5CE1F006EA19A /* NCMBRelationOperation.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6D71BC5CE1F006EA19A /* NCMBRemoveOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6751BC5CE1F006EA19A /* NCMBRemoveOperation.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6D81BC5CE1F006EA19A /* NCMBRemoveOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6751BC5CE1F006EA19A /* NCMBRemoveOperation.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6D91BC5CE1F006EA19A /* NCMBSetOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6771BC5CE1F006EA19A /* NCMBSetOperation.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6DA1BC5CE1F006EA19A /* NCMBSetOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6771BC5CE1F006EA19A /* NCMBSetOperation.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6DB1BC5CE1F006EA19A /* SubClassHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6801BC5CE1F006EA19A /* SubClassHandler.m */; settings = {ASSET_TAGS = (); }; };
-		00AAE6DC1BC5CE1F006EA19A /* SubClassHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AAE6801BC5CE1F006EA19A /* SubClassHandler.m */; settings = {ASSET_TAGS = (); }; };
 		BC04738B1BC8ABAC002CE57B /* NoSound_stereo_44100.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC04738A1BC8ABAC002CE57B /* NoSound_stereo_44100.wav */; settings = {ASSET_TAGS = (); }; };
 		BC0473A61BC8ABB9002CE57B /* carpool.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC04738E1BC8ABB9002CE57B /* carpool.jpg */; settings = {ASSET_TAGS = (); }; };
 		BC0473A71BC8ABB9002CE57B /* pokemon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC04738F1BC8ABB9002CE57B /* pokemon.jpg */; settings = {ASSET_TAGS = (); }; };
@@ -200,106 +108,6 @@
 		000E41891BC9F88F00735CBE /* KashiwadeDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KashiwadeDB.h; sourceTree = "<group>"; };
 		000E418A1BC9F88F00735CBE /* KashiwadeDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KashiwadeDB.m; sourceTree = "<group>"; };
 		008971D21BCA45F800EE0782 /* clap_pin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clap_pin@2x.png"; sourceTree = "<group>"; };
-		00AAE6121BC5CE1F006EA19A /* NCMB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMB.h; sourceTree = "<group>"; };
-		00AAE6131BC5CE1F006EA19A /* NCMB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMB.m; sourceTree = "<group>"; };
-		00AAE6141BC5CE1F006EA19A /* NCMB_Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NCMB_Info.plist; sourceTree = "<group>"; };
-		00AAE6151BC5CE1F006EA19A /* NCMBACL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBACL.h; sourceTree = "<group>"; };
-		00AAE6161BC5CE1F006EA19A /* NCMBACL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBACL.m; sourceTree = "<group>"; };
-		00AAE6171BC5CE1F006EA19A /* NCMBAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBAnalytics.h; sourceTree = "<group>"; };
-		00AAE6181BC5CE1F006EA19A /* NCMBAnalytics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBAnalytics.m; sourceTree = "<group>"; };
-		00AAE6191BC5CE1F006EA19A /* NCMBAnonymousUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBAnonymousUtils.h; sourceTree = "<group>"; };
-		00AAE61A1BC5CE1F006EA19A /* NCMBAnonymousUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBAnonymousUtils.m; sourceTree = "<group>"; };
-		00AAE61B1BC5CE1F006EA19A /* NCMBConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBConstants.h; sourceTree = "<group>"; };
-		00AAE61C1BC5CE1F006EA19A /* NCMBError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBError.h; sourceTree = "<group>"; };
-		00AAE61D1BC5CE1F006EA19A /* NCMBError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBError.m; sourceTree = "<group>"; };
-		00AAE61E1BC5CE1F006EA19A /* NCMBFacebookUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBFacebookUtils.h; sourceTree = "<group>"; };
-		00AAE61F1BC5CE1F006EA19A /* NCMBFacebookUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBFacebookUtils.m; sourceTree = "<group>"; };
-		00AAE6201BC5CE1F006EA19A /* NCMBFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBFile.h; sourceTree = "<group>"; };
-		00AAE6211BC5CE1F006EA19A /* NCMBFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBFile.m; sourceTree = "<group>"; };
-		00AAE6221BC5CE1F006EA19A /* NCMBGeoPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBGeoPoint.h; sourceTree = "<group>"; };
-		00AAE6231BC5CE1F006EA19A /* NCMBGeoPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBGeoPoint.m; sourceTree = "<group>"; };
-		00AAE6241BC5CE1F006EA19A /* NCMBGoogleUtils+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NCMBGoogleUtils+Private.h"; sourceTree = "<group>"; };
-		00AAE6251BC5CE1F006EA19A /* NCMBGoogleUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBGoogleUtils.h; sourceTree = "<group>"; };
-		00AAE6261BC5CE1F006EA19A /* NCMBGoogleUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBGoogleUtils.m; sourceTree = "<group>"; };
-		00AAE6271BC5CE1F006EA19A /* NCMBInstallation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBInstallation.h; sourceTree = "<group>"; };
-		00AAE6281BC5CE1F006EA19A /* NCMBInstallation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBInstallation.m; sourceTree = "<group>"; };
-		00AAE6291BC5CE1F006EA19A /* NCMBObject+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NCMBObject+Subclass.h"; sourceTree = "<group>"; };
-		00AAE62A1BC5CE1F006EA19A /* NCMBObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBObject.h; sourceTree = "<group>"; };
-		00AAE62B1BC5CE1F006EA19A /* NCMBObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBObject.m; sourceTree = "<group>"; };
-		00AAE62C1BC5CE1F006EA19A /* NCMBPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBPush.h; sourceTree = "<group>"; };
-		00AAE62D1BC5CE1F006EA19A /* NCMBPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBPush.m; sourceTree = "<group>"; };
-		00AAE62E1BC5CE1F006EA19A /* NCMBQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBQuery.h; sourceTree = "<group>"; };
-		00AAE62F1BC5CE1F006EA19A /* NCMBQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBQuery.m; sourceTree = "<group>"; };
-		00AAE6311BC5CE1F006EA19A /* NCMBReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBReachability.h; sourceTree = "<group>"; };
-		00AAE6321BC5CE1F006EA19A /* NCMBReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBReachability.m; sourceTree = "<group>"; };
-		00AAE6331BC5CE1F006EA19A /* NCMBRelation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBRelation.h; sourceTree = "<group>"; };
-		00AAE6341BC5CE1F006EA19A /* NCMBRelation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBRelation.m; sourceTree = "<group>"; };
-		00AAE6361BC5CE1F006EA19A /* NCMBCloseImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBCloseImageView.h; sourceTree = "<group>"; };
-		00AAE6371BC5CE1F006EA19A /* NCMBCloseImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBCloseImageView.m; sourceTree = "<group>"; };
-		00AAE6381BC5CE1F006EA19A /* NCMBRichPushView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBRichPushView.h; sourceTree = "<group>"; };
-		00AAE6391BC5CE1F006EA19A /* NCMBRichPushView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBRichPushView.m; sourceTree = "<group>"; };
-		00AAE63A1BC5CE1F006EA19A /* NCMBRole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBRole.h; sourceTree = "<group>"; };
-		00AAE63B1BC5CE1F006EA19A /* NCMBRole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBRole.m; sourceTree = "<group>"; };
-		00AAE63C1BC5CE1F006EA19A /* NCMBSubclassing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBSubclassing.h; sourceTree = "<group>"; };
-		00AAE63E1BC5CE1F006EA19A /* NCMB_Twitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMB_Twitter.m; sourceTree = "<group>"; };
-		00AAE6411BC5CE1F006EA19A /* NSMutableURLRequestParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSMutableURLRequestParameters.h; sourceTree = "<group>"; };
-		00AAE6421BC5CE1F006EA19A /* NSMutableURLRequestParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSMutableURLRequestParameters.m; sourceTree = "<group>"; };
-		00AAE6431BC5CE1F006EA19A /* NSStringURLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringURLEncoding.h; sourceTree = "<group>"; };
-		00AAE6441BC5CE1F006EA19A /* NSStringURLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringURLEncoding.m; sourceTree = "<group>"; };
-		00AAE6451BC5CE1F006EA19A /* NSURLBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSURLBase.h; sourceTree = "<group>"; };
-		00AAE6461BC5CE1F006EA19A /* NSURLBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSURLBase.m; sourceTree = "<group>"; };
-		00AAE6481BC5CE1F006EA19A /* Base64Transcoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Base64Transcoder.c; sourceTree = "<group>"; };
-		00AAE6491BC5CE1F006EA19A /* Base64Transcoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Transcoder.h; sourceTree = "<group>"; };
-		00AAE64A1BC5CE1F006EA19A /* hmac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hmac.c; sourceTree = "<group>"; };
-		00AAE64B1BC5CE1F006EA19A /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
-		00AAE64C1BC5CE1F006EA19A /* sha1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha1.c; sourceTree = "<group>"; };
-		00AAE64D1BC5CE1F006EA19A /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
-		00AAE64E1BC5CE1F006EA19A /* NCMBOAConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBOAConsumer.h; sourceTree = "<group>"; };
-		00AAE64F1BC5CE1F006EA19A /* NCMBOAConsumer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBOAConsumer.m; sourceTree = "<group>"; };
-		00AAE6501BC5CE1F006EA19A /* NCMBOADataFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBOADataFetcher.h; sourceTree = "<group>"; };
-		00AAE6511BC5CE1F006EA19A /* NCMBOADataFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBOADataFetcher.m; sourceTree = "<group>"; };
-		00AAE6521BC5CE1F006EA19A /* NCMBOAHMAC_SHA1SignatureProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBOAHMAC_SHA1SignatureProvider.h; sourceTree = "<group>"; };
-		00AAE6531BC5CE1F006EA19A /* NCMBOAHMAC_SHA1SignatureProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBOAHMAC_SHA1SignatureProvider.m; sourceTree = "<group>"; };
-		00AAE6541BC5CE1F006EA19A /* NCMBOAMutableURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBOAMutableURLRequest.h; sourceTree = "<group>"; };
-		00AAE6551BC5CE1F006EA19A /* NCMBOAMutableURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBOAMutableURLRequest.m; sourceTree = "<group>"; };
-		00AAE6561BC5CE1F006EA19A /* NCMBOARequestParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBOARequestParameter.h; sourceTree = "<group>"; };
-		00AAE6571BC5CE1F006EA19A /* NCMBOARequestParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBOARequestParameter.m; sourceTree = "<group>"; };
-		00AAE6581BC5CE1F006EA19A /* NCMBOAServiceTicket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBOAServiceTicket.h; sourceTree = "<group>"; };
-		00AAE6591BC5CE1F006EA19A /* NCMBOAServiceTicket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBOAServiceTicket.m; sourceTree = "<group>"; };
-		00AAE65A1BC5CE1F006EA19A /* NCMBOASignatureProviding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBOASignatureProviding.h; sourceTree = "<group>"; };
-		00AAE65B1BC5CE1F006EA19A /* NCMBOAToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBOAToken.h; sourceTree = "<group>"; };
-		00AAE65C1BC5CE1F006EA19A /* NCMBOAToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBOAToken.m; sourceTree = "<group>"; };
-		00AAE65D1BC5CE1F006EA19A /* NCMBTwitterLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBTwitterLoginView.h; sourceTree = "<group>"; };
-		00AAE65E1BC5CE1F006EA19A /* NCMBTwitterLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBTwitterLoginView.m; sourceTree = "<group>"; };
-		00AAE65F1BC5CE1F006EA19A /* NCMBTwitterUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBTwitterUtils.h; sourceTree = "<group>"; };
-		00AAE6601BC5CE1F006EA19A /* NCMBTwitterUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBTwitterUtils.m; sourceTree = "<group>"; };
-		00AAE6621BC5CE1F006EA19A /* NCMBURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBURLConnection.h; sourceTree = "<group>"; };
-		00AAE6631BC5CE1F006EA19A /* NCMBURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBURLConnection.m; sourceTree = "<group>"; };
-		00AAE6641BC5CE1F006EA19A /* NCMBUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBUser.h; sourceTree = "<group>"; };
-		00AAE6651BC5CE1F006EA19A /* NCMBUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBUser.m; sourceTree = "<group>"; };
-		00AAE6671BC5CE1F006EA19A /* NSDataBase64Encode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataBase64Encode.h; sourceTree = "<group>"; };
-		00AAE6681BC5CE1F006EA19A /* NSDataBase64Encode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataBase64Encode.m; sourceTree = "<group>"; };
-		00AAE66A1BC5CE1F006EA19A /* NCMBAddOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBAddOperation.h; sourceTree = "<group>"; };
-		00AAE66B1BC5CE1F006EA19A /* NCMBAddOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBAddOperation.m; sourceTree = "<group>"; };
-		00AAE66C1BC5CE1F006EA19A /* NCMBAddUniqueOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBAddUniqueOperation.h; sourceTree = "<group>"; };
-		00AAE66D1BC5CE1F006EA19A /* NCMBAddUniqueOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBAddUniqueOperation.m; sourceTree = "<group>"; };
-		00AAE66E1BC5CE1F006EA19A /* NCMBDeleteOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBDeleteOperation.h; sourceTree = "<group>"; };
-		00AAE66F1BC5CE1F006EA19A /* NCMBDeleteOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBDeleteOperation.m; sourceTree = "<group>"; };
-		00AAE6701BC5CE1F006EA19A /* NCMBIncrementOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBIncrementOperation.h; sourceTree = "<group>"; };
-		00AAE6711BC5CE1F006EA19A /* NCMBIncrementOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBIncrementOperation.m; sourceTree = "<group>"; };
-		00AAE6721BC5CE1F006EA19A /* NCMBRelationOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBRelationOperation.h; sourceTree = "<group>"; };
-		00AAE6731BC5CE1F006EA19A /* NCMBRelationOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBRelationOperation.m; sourceTree = "<group>"; };
-		00AAE6741BC5CE1F006EA19A /* NCMBRemoveOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBRemoveOperation.h; sourceTree = "<group>"; };
-		00AAE6751BC5CE1F006EA19A /* NCMBRemoveOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBRemoveOperation.m; sourceTree = "<group>"; };
-		00AAE6761BC5CE1F006EA19A /* NCMBSetOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBSetOperation.h; sourceTree = "<group>"; };
-		00AAE6771BC5CE1F006EA19A /* NCMBSetOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBSetOperation.m; sourceTree = "<group>"; };
-		00AAE6791BC5CE1F006EA19A /* NCMBFacebookUtils+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NCMBFacebookUtils+Private.h"; sourceTree = "<group>"; };
-		00AAE67A1BC5CE1F006EA19A /* NCMBObject+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NCMBObject+Private.h"; sourceTree = "<group>"; };
-		00AAE67B1BC5CE1F006EA19A /* NCMBQuery+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NCMBQuery+Private.h"; sourceTree = "<group>"; };
-		00AAE67C1BC5CE1F006EA19A /* NCMBRelation+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NCMBRelation+Private.h"; sourceTree = "<group>"; };
-		00AAE67D1BC5CE1F006EA19A /* NCMBUser+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NCMBUser+Private.h"; sourceTree = "<group>"; };
-		00AAE67F1BC5CE1F006EA19A /* SubClassHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubClassHandler.h; sourceTree = "<group>"; };
-		00AAE6801BC5CE1F006EA19A /* SubClassHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubClassHandler.m; sourceTree = "<group>"; };
 		BC04738A1BC8ABAC002CE57B /* NoSound_stereo_44100.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = NoSound_stereo_44100.wav; sourceTree = "<group>"; };
 		BC04738E1BC8ABB9002CE57B /* carpool.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carpool.jpg; sourceTree = "<group>"; };
 		BC04738F1BC8ABB9002CE57B /* pokemon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pokemon.jpg; sourceTree = "<group>"; };
@@ -388,201 +196,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00AAE6111BC5CE1F006EA19A /* NCMB */ = {
-			isa = PBXGroup;
-			children = (
-				00AAE6121BC5CE1F006EA19A /* NCMB.h */,
-				00AAE6131BC5CE1F006EA19A /* NCMB.m */,
-				00AAE6141BC5CE1F006EA19A /* NCMB_Info.plist */,
-				00AAE6151BC5CE1F006EA19A /* NCMBACL.h */,
-				00AAE6161BC5CE1F006EA19A /* NCMBACL.m */,
-				00AAE6171BC5CE1F006EA19A /* NCMBAnalytics.h */,
-				00AAE6181BC5CE1F006EA19A /* NCMBAnalytics.m */,
-				00AAE6191BC5CE1F006EA19A /* NCMBAnonymousUtils.h */,
-				00AAE61A1BC5CE1F006EA19A /* NCMBAnonymousUtils.m */,
-				00AAE61B1BC5CE1F006EA19A /* NCMBConstants.h */,
-				00AAE61C1BC5CE1F006EA19A /* NCMBError.h */,
-				00AAE61D1BC5CE1F006EA19A /* NCMBError.m */,
-				00AAE61E1BC5CE1F006EA19A /* NCMBFacebookUtils.h */,
-				00AAE61F1BC5CE1F006EA19A /* NCMBFacebookUtils.m */,
-				00AAE6201BC5CE1F006EA19A /* NCMBFile.h */,
-				00AAE6211BC5CE1F006EA19A /* NCMBFile.m */,
-				00AAE6221BC5CE1F006EA19A /* NCMBGeoPoint.h */,
-				00AAE6231BC5CE1F006EA19A /* NCMBGeoPoint.m */,
-				00AAE6241BC5CE1F006EA19A /* NCMBGoogleUtils+Private.h */,
-				00AAE6251BC5CE1F006EA19A /* NCMBGoogleUtils.h */,
-				00AAE6261BC5CE1F006EA19A /* NCMBGoogleUtils.m */,
-				00AAE6271BC5CE1F006EA19A /* NCMBInstallation.h */,
-				00AAE6281BC5CE1F006EA19A /* NCMBInstallation.m */,
-				00AAE6291BC5CE1F006EA19A /* NCMBObject+Subclass.h */,
-				00AAE62A1BC5CE1F006EA19A /* NCMBObject.h */,
-				00AAE62B1BC5CE1F006EA19A /* NCMBObject.m */,
-				00AAE62C1BC5CE1F006EA19A /* NCMBPush.h */,
-				00AAE62D1BC5CE1F006EA19A /* NCMBPush.m */,
-				00AAE62E1BC5CE1F006EA19A /* NCMBQuery.h */,
-				00AAE62F1BC5CE1F006EA19A /* NCMBQuery.m */,
-				00AAE6301BC5CE1F006EA19A /* NCMBReachability */,
-				00AAE6331BC5CE1F006EA19A /* NCMBRelation.h */,
-				00AAE6341BC5CE1F006EA19A /* NCMBRelation.m */,
-				00AAE6351BC5CE1F006EA19A /* NCMBRichPush */,
-				00AAE63A1BC5CE1F006EA19A /* NCMBRole.h */,
-				00AAE63B1BC5CE1F006EA19A /* NCMBRole.m */,
-				00AAE63C1BC5CE1F006EA19A /* NCMBSubclassing.h */,
-				00AAE63D1BC5CE1F006EA19A /* NCMBTwitter */,
-				00AAE65F1BC5CE1F006EA19A /* NCMBTwitterUtils.h */,
-				00AAE6601BC5CE1F006EA19A /* NCMBTwitterUtils.m */,
-				00AAE6611BC5CE1F006EA19A /* NCMBURLConnection */,
-				00AAE6641BC5CE1F006EA19A /* NCMBUser.h */,
-				00AAE6651BC5CE1F006EA19A /* NCMBUser.m */,
-				00AAE6661BC5CE1F006EA19A /* NSDataBase64Encode */,
-				00AAE6691BC5CE1F006EA19A /* Operations */,
-				00AAE6781BC5CE1F006EA19A /* PrivateHeaders */,
-				00AAE67E1BC5CE1F006EA19A /* SubClassHandler */,
-			);
-			path = NCMB;
-			sourceTree = "<group>";
-		};
-		00AAE6301BC5CE1F006EA19A /* NCMBReachability */ = {
-			isa = PBXGroup;
-			children = (
-				00AAE6311BC5CE1F006EA19A /* NCMBReachability.h */,
-				00AAE6321BC5CE1F006EA19A /* NCMBReachability.m */,
-			);
-			path = NCMBReachability;
-			sourceTree = "<group>";
-		};
-		00AAE6351BC5CE1F006EA19A /* NCMBRichPush */ = {
-			isa = PBXGroup;
-			children = (
-				00AAE6361BC5CE1F006EA19A /* NCMBCloseImageView.h */,
-				00AAE6371BC5CE1F006EA19A /* NCMBCloseImageView.m */,
-				00AAE6381BC5CE1F006EA19A /* NCMBRichPushView.h */,
-				00AAE6391BC5CE1F006EA19A /* NCMBRichPushView.m */,
-			);
-			path = NCMBRichPush;
-			sourceTree = "<group>";
-		};
-		00AAE63D1BC5CE1F006EA19A /* NCMBTwitter */ = {
-			isa = PBXGroup;
-			children = (
-				00AAE63E1BC5CE1F006EA19A /* NCMB_Twitter.m */,
-				00AAE63F1BC5CE1F006EA19A /* NCMBOAConsumer */,
-				00AAE65D1BC5CE1F006EA19A /* NCMBTwitterLoginView.h */,
-				00AAE65E1BC5CE1F006EA19A /* NCMBTwitterLoginView.m */,
-			);
-			path = NCMBTwitter;
-			sourceTree = "<group>";
-		};
-		00AAE63F1BC5CE1F006EA19A /* NCMBOAConsumer */ = {
-			isa = PBXGroup;
-			children = (
-				00AAE6401BC5CE1F006EA19A /* Categories */,
-				00AAE6471BC5CE1F006EA19A /* Crypto */,
-				00AAE64E1BC5CE1F006EA19A /* NCMBOAConsumer.h */,
-				00AAE64F1BC5CE1F006EA19A /* NCMBOAConsumer.m */,
-				00AAE6501BC5CE1F006EA19A /* NCMBOADataFetcher.h */,
-				00AAE6511BC5CE1F006EA19A /* NCMBOADataFetcher.m */,
-				00AAE6521BC5CE1F006EA19A /* NCMBOAHMAC_SHA1SignatureProvider.h */,
-				00AAE6531BC5CE1F006EA19A /* NCMBOAHMAC_SHA1SignatureProvider.m */,
-				00AAE6541BC5CE1F006EA19A /* NCMBOAMutableURLRequest.h */,
-				00AAE6551BC5CE1F006EA19A /* NCMBOAMutableURLRequest.m */,
-				00AAE6561BC5CE1F006EA19A /* NCMBOARequestParameter.h */,
-				00AAE6571BC5CE1F006EA19A /* NCMBOARequestParameter.m */,
-				00AAE6581BC5CE1F006EA19A /* NCMBOAServiceTicket.h */,
-				00AAE6591BC5CE1F006EA19A /* NCMBOAServiceTicket.m */,
-				00AAE65A1BC5CE1F006EA19A /* NCMBOASignatureProviding.h */,
-				00AAE65B1BC5CE1F006EA19A /* NCMBOAToken.h */,
-				00AAE65C1BC5CE1F006EA19A /* NCMBOAToken.m */,
-			);
-			path = NCMBOAConsumer;
-			sourceTree = "<group>";
-		};
-		00AAE6401BC5CE1F006EA19A /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				00AAE6411BC5CE1F006EA19A /* NSMutableURLRequestParameters.h */,
-				00AAE6421BC5CE1F006EA19A /* NSMutableURLRequestParameters.m */,
-				00AAE6431BC5CE1F006EA19A /* NSStringURLEncoding.h */,
-				00AAE6441BC5CE1F006EA19A /* NSStringURLEncoding.m */,
-				00AAE6451BC5CE1F006EA19A /* NSURLBase.h */,
-				00AAE6461BC5CE1F006EA19A /* NSURLBase.m */,
-			);
-			path = Categories;
-			sourceTree = "<group>";
-		};
-		00AAE6471BC5CE1F006EA19A /* Crypto */ = {
-			isa = PBXGroup;
-			children = (
-				00AAE6481BC5CE1F006EA19A /* Base64Transcoder.c */,
-				00AAE6491BC5CE1F006EA19A /* Base64Transcoder.h */,
-				00AAE64A1BC5CE1F006EA19A /* hmac.c */,
-				00AAE64B1BC5CE1F006EA19A /* hmac.h */,
-				00AAE64C1BC5CE1F006EA19A /* sha1.c */,
-				00AAE64D1BC5CE1F006EA19A /* sha1.h */,
-			);
-			path = Crypto;
-			sourceTree = "<group>";
-		};
-		00AAE6611BC5CE1F006EA19A /* NCMBURLConnection */ = {
-			isa = PBXGroup;
-			children = (
-				00AAE6621BC5CE1F006EA19A /* NCMBURLConnection.h */,
-				00AAE6631BC5CE1F006EA19A /* NCMBURLConnection.m */,
-			);
-			path = NCMBURLConnection;
-			sourceTree = "<group>";
-		};
-		00AAE6661BC5CE1F006EA19A /* NSDataBase64Encode */ = {
-			isa = PBXGroup;
-			children = (
-				00AAE6671BC5CE1F006EA19A /* NSDataBase64Encode.h */,
-				00AAE6681BC5CE1F006EA19A /* NSDataBase64Encode.m */,
-			);
-			path = NSDataBase64Encode;
-			sourceTree = "<group>";
-		};
-		00AAE6691BC5CE1F006EA19A /* Operations */ = {
-			isa = PBXGroup;
-			children = (
-				00AAE66A1BC5CE1F006EA19A /* NCMBAddOperation.h */,
-				00AAE66B1BC5CE1F006EA19A /* NCMBAddOperation.m */,
-				00AAE66C1BC5CE1F006EA19A /* NCMBAddUniqueOperation.h */,
-				00AAE66D1BC5CE1F006EA19A /* NCMBAddUniqueOperation.m */,
-				00AAE66E1BC5CE1F006EA19A /* NCMBDeleteOperation.h */,
-				00AAE66F1BC5CE1F006EA19A /* NCMBDeleteOperation.m */,
-				00AAE6701BC5CE1F006EA19A /* NCMBIncrementOperation.h */,
-				00AAE6711BC5CE1F006EA19A /* NCMBIncrementOperation.m */,
-				00AAE6721BC5CE1F006EA19A /* NCMBRelationOperation.h */,
-				00AAE6731BC5CE1F006EA19A /* NCMBRelationOperation.m */,
-				00AAE6741BC5CE1F006EA19A /* NCMBRemoveOperation.h */,
-				00AAE6751BC5CE1F006EA19A /* NCMBRemoveOperation.m */,
-				00AAE6761BC5CE1F006EA19A /* NCMBSetOperation.h */,
-				00AAE6771BC5CE1F006EA19A /* NCMBSetOperation.m */,
-			);
-			path = Operations;
-			sourceTree = "<group>";
-		};
-		00AAE6781BC5CE1F006EA19A /* PrivateHeaders */ = {
-			isa = PBXGroup;
-			children = (
-				00AAE6791BC5CE1F006EA19A /* NCMBFacebookUtils+Private.h */,
-				00AAE67A1BC5CE1F006EA19A /* NCMBObject+Private.h */,
-				00AAE67B1BC5CE1F006EA19A /* NCMBQuery+Private.h */,
-				00AAE67C1BC5CE1F006EA19A /* NCMBRelation+Private.h */,
-				00AAE67D1BC5CE1F006EA19A /* NCMBUser+Private.h */,
-			);
-			path = PrivateHeaders;
-			sourceTree = "<group>";
-		};
-		00AAE67E1BC5CE1F006EA19A /* SubClassHandler */ = {
-			isa = PBXGroup;
-			children = (
-				00AAE67F1BC5CE1F006EA19A /* SubClassHandler.h */,
-				00AAE6801BC5CE1F006EA19A /* SubClassHandler.m */,
-			);
-			path = SubClassHandler;
-			sourceTree = "<group>";
-		};
 		BC04738C1BC8ABB9002CE57B /* media */ = {
 			isa = PBXGroup;
 			children = (
@@ -726,7 +339,6 @@
 		BC3AA43E1BB66C3000B6A692 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				00AAE6111BC5CE1F006EA19A /* NCMB */,
 				BC3AA43F1BB66C3000B6A692 /* AppDelegate.h */,
 				BC3AA4401BB66C3000B6A692 /* AppDelegate.m */,
 				BC3AA4411BB66C3000B6A692 /* ViewController.h */,
@@ -915,7 +527,6 @@
 				000281AE1BBFCC13004FBCE8 /* kashiwade.wav in Resources */,
 				BC0473AE1BC8ABB9002CE57B /* carpool_IR-9_L.wav in Resources */,
 				BC0473B71BC8ABB9002CE57B /* carpool_IR-9_LR.wav in Resources */,
-				00AAE6831BC5CE1F006EA19A /* NCMB_Info.plist in Resources */,
 				000281A71BBFBB3A004FBCE8 /* clap_1_c.png in Resources */,
 				BC0473B01BC8ABB9002CE57B /* pokemon _IR-9_L.wav in Resources */,
 			);
@@ -926,7 +537,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				008971D41BCA45F800EE0782 /* clap_pin@2x.png in Resources */,
-				00AAE6841BC5CE1F006EA19A /* NCMB_Info.plist in Resources */,
 				BC3AA4331BB66B8200B6A692 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -938,58 +548,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00AAE6B11BC5CE1F006EA19A /* hmac.c in Sources */,
-				00AAE6BD1BC5CE1F006EA19A /* NCMBOARequestParameter.m in Sources */,
-				00AAE69F1BC5CE1F006EA19A /* NCMBRelation.m in Sources */,
-				00AAE69B1BC5CE1F006EA19A /* NCMBQuery.m in Sources */,
-				00AAE6D71BC5CE1F006EA19A /* NCMBRemoveOperation.m in Sources */,
-				00AAE6D11BC5CE1F006EA19A /* NCMBDeleteOperation.m in Sources */,
 				BC3AA4441BB66C3000B6A692 /* ViewController.m in Sources */,
 				BC3AA4431BB66C3000B6A692 /* AppDelegate.m in Sources */,
-				00AAE6C91BC5CE1F006EA19A /* NCMBUser.m in Sources */,
-				00AAE6DB1BC5CE1F006EA19A /* SubClassHandler.m in Sources */,
-				00AAE6911BC5CE1F006EA19A /* NCMBGeoPoint.m in Sources */,
-				00AAE6971BC5CE1F006EA19A /* NCMBObject.m in Sources */,
-				00AAE6CB1BC5CE1F006EA19A /* NSDataBase64Encode.m in Sources */,
-				00AAE6B51BC5CE1F006EA19A /* NCMBOAConsumer.m in Sources */,
 				BC3AA4161BB66B8200B6A692 /* main.m in Sources */,
 				BCF184AC1BBC5F790027AD2E /* PlayViewController.m in Sources */,
-				00AAE68F1BC5CE1F006EA19A /* NCMBFile.m in Sources */,
-				00AAE6CF1BC5CE1F006EA19A /* NCMBAddUniqueOperation.m in Sources */,
-				00AAE6851BC5CE1F006EA19A /* NCMBACL.m in Sources */,
-				00AAE6D51BC5CE1F006EA19A /* NCMBRelationOperation.m in Sources */,
 				BCF184A41BBC27590027AD2E /* CustomAnnotation.m in Sources */,
-				00AAE69D1BC5CE1F006EA19A /* NCMBReachability.m in Sources */,
-				00AAE6C71BC5CE1F006EA19A /* NCMBURLConnection.m in Sources */,
-				00AAE6BF1BC5CE1F006EA19A /* NCMBOAServiceTicket.m in Sources */,
-				00AAE6811BC5CE1F006EA19A /* NCMB.m in Sources */,
-				00AAE6A91BC5CE1F006EA19A /* NSMutableURLRequestParameters.m in Sources */,
-				00AAE6BB1BC5CE1F006EA19A /* NCMBOAMutableURLRequest.m in Sources */,
-				00AAE6891BC5CE1F006EA19A /* NCMBAnonymousUtils.m in Sources */,
-				00AAE6D31BC5CE1F006EA19A /* NCMBIncrementOperation.m in Sources */,
-				00AAE6A31BC5CE1F006EA19A /* NCMBRichPushView.m in Sources */,
-				00AAE6A51BC5CE1F006EA19A /* NCMBRole.m in Sources */,
 				000E418B1BC9F88F00735CBE /* KashiwadeDB.m in Sources */,
-				00AAE68B1BC5CE1F006EA19A /* NCMBError.m in Sources */,
-				00AAE68D1BC5CE1F006EA19A /* NCMBFacebookUtils.m in Sources */,
-				00AAE6B71BC5CE1F006EA19A /* NCMBOADataFetcher.m in Sources */,
-				00AAE6AB1BC5CE1F006EA19A /* NSStringURLEncoding.m in Sources */,
-				00AAE6871BC5CE1F006EA19A /* NCMBAnalytics.m in Sources */,
-				00AAE6931BC5CE1F006EA19A /* NCMBGoogleUtils.m in Sources */,
 				BCF184E71BBCD0C10027AD2E /* ConvolutionInstrument.m in Sources */,
-				00AAE6A71BC5CE1F006EA19A /* NCMB_Twitter.m in Sources */,
-				00AAE6A11BC5CE1F006EA19A /* NCMBCloseImageView.m in Sources */,
-				00AAE6C11BC5CE1F006EA19A /* NCMBOAToken.m in Sources */,
-				00AAE6CD1BC5CE1F006EA19A /* NCMBAddOperation.m in Sources */,
-				00AAE6AF1BC5CE1F006EA19A /* Base64Transcoder.c in Sources */,
-				00AAE6C51BC5CE1F006EA19A /* NCMBTwitterUtils.m in Sources */,
-				00AAE6AD1BC5CE1F006EA19A /* NSURLBase.m in Sources */,
-				00AAE6D91BC5CE1F006EA19A /* NCMBSetOperation.m in Sources */,
-				00AAE6951BC5CE1F006EA19A /* NCMBInstallation.m in Sources */,
-				00AAE6B91BC5CE1F006EA19A /* NCMBOAHMAC_SHA1SignatureProvider.m in Sources */,
-				00AAE6C31BC5CE1F006EA19A /* NCMBTwitterLoginView.m in Sources */,
-				00AAE6991BC5CE1F006EA19A /* NCMBPush.m in Sources */,
-				00AAE6B31BC5CE1F006EA19A /* sha1.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -997,53 +562,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00AAE6B41BC5CE1F006EA19A /* sha1.c in Sources */,
-				00AAE6B21BC5CE1F006EA19A /* hmac.c in Sources */,
-				00AAE6A41BC5CE1F006EA19A /* NCMBRichPushView.m in Sources */,
 				BC3AA4351BB66B8200B6A692 /* KashiwadeTests.m in Sources */,
-				00AAE6D01BC5CE1F006EA19A /* NCMBAddUniqueOperation.m in Sources */,
-				00AAE6AC1BC5CE1F006EA19A /* NSStringURLEncoding.m in Sources */,
-				00AAE6821BC5CE1F006EA19A /* NCMB.m in Sources */,
-				00AAE68E1BC5CE1F006EA19A /* NCMBFacebookUtils.m in Sources */,
-				00AAE6BA1BC5CE1F006EA19A /* NCMBOAHMAC_SHA1SignatureProvider.m in Sources */,
-				00AAE68A1BC5CE1F006EA19A /* NCMBAnonymousUtils.m in Sources */,
-				00AAE6D61BC5CE1F006EA19A /* NCMBRelationOperation.m in Sources */,
-				00AAE6881BC5CE1F006EA19A /* NCMBAnalytics.m in Sources */,
-				00AAE69E1BC5CE1F006EA19A /* NCMBReachability.m in Sources */,
-				00AAE6901BC5CE1F006EA19A /* NCMBFile.m in Sources */,
-				00AAE6DC1BC5CE1F006EA19A /* SubClassHandler.m in Sources */,
-				00AAE6D21BC5CE1F006EA19A /* NCMBDeleteOperation.m in Sources */,
-				00AAE6A01BC5CE1F006EA19A /* NCMBRelation.m in Sources */,
-				00AAE6C81BC5CE1F006EA19A /* NCMBURLConnection.m in Sources */,
-				00AAE6C61BC5CE1F006EA19A /* NCMBTwitterUtils.m in Sources */,
-				00AAE6A21BC5CE1F006EA19A /* NCMBCloseImageView.m in Sources */,
-				00AAE6D81BC5CE1F006EA19A /* NCMBRemoveOperation.m in Sources */,
-				00AAE6B81BC5CE1F006EA19A /* NCMBOADataFetcher.m in Sources */,
-				00AAE68C1BC5CE1F006EA19A /* NCMBError.m in Sources */,
-				00AAE6A81BC5CE1F006EA19A /* NCMB_Twitter.m in Sources */,
-				00AAE6B01BC5CE1F006EA19A /* Base64Transcoder.c in Sources */,
-				00AAE6C41BC5CE1F006EA19A /* NCMBTwitterLoginView.m in Sources */,
-				00AAE69A1BC5CE1F006EA19A /* NCMBPush.m in Sources */,
-				00AAE69C1BC5CE1F006EA19A /* NCMBQuery.m in Sources */,
-				00AAE6921BC5CE1F006EA19A /* NCMBGeoPoint.m in Sources */,
-				00AAE6C01BC5CE1F006EA19A /* NCMBOAServiceTicket.m in Sources */,
-				00AAE6DA1BC5CE1F006EA19A /* NCMBSetOperation.m in Sources */,
-				00AAE6CE1BC5CE1F006EA19A /* NCMBAddOperation.m in Sources */,
-				00AAE6961BC5CE1F006EA19A /* NCMBInstallation.m in Sources */,
-				00AAE6AE1BC5CE1F006EA19A /* NSURLBase.m in Sources */,
-				00AAE6CC1BC5CE1F006EA19A /* NSDataBase64Encode.m in Sources */,
 				000E418C1BC9F88F00735CBE /* KashiwadeDB.m in Sources */,
-				00AAE6B61BC5CE1F006EA19A /* NCMBOAConsumer.m in Sources */,
-				00AAE6941BC5CE1F006EA19A /* NCMBGoogleUtils.m in Sources */,
-				00AAE6981BC5CE1F006EA19A /* NCMBObject.m in Sources */,
-				00AAE6BC1BC5CE1F006EA19A /* NCMBOAMutableURLRequest.m in Sources */,
-				00AAE6BE1BC5CE1F006EA19A /* NCMBOARequestParameter.m in Sources */,
-				00AAE6CA1BC5CE1F006EA19A /* NCMBUser.m in Sources */,
-				00AAE6D41BC5CE1F006EA19A /* NCMBIncrementOperation.m in Sources */,
-				00AAE6A61BC5CE1F006EA19A /* NCMBRole.m in Sources */,
-				00AAE6AA1BC5CE1F006EA19A /* NSMutableURLRequestParameters.m in Sources */,
-				00AAE6861BC5CE1F006EA19A /* NCMBACL.m in Sources */,
-				00AAE6C21BC5CE1F006EA19A /* NCMBOAToken.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
