@@ -14,6 +14,7 @@
 		000E418C1BC9F88F00735CBE /* KashiwadeDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 000E418A1BC9F88F00735CBE /* KashiwadeDB.m */; settings = {ASSET_TAGS = (); }; };
 		008971D31BCA45F800EE0782 /* clap_pin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 008971D21BCA45F800EE0782 /* clap_pin@2x.png */; settings = {ASSET_TAGS = (); }; };
 		008971D41BCA45F800EE0782 /* clap_pin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 008971D21BCA45F800EE0782 /* clap_pin@2x.png */; settings = {ASSET_TAGS = (); }; };
+		6E527E3BC9E245284F3199CF /* libPods-Kashiwade.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3BC5FAFE68020AC7913C74B /* libPods-Kashiwade.a */; };
 		BC04738B1BC8ABAC002CE57B /* NoSound_stereo_44100.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC04738A1BC8ABAC002CE57B /* NoSound_stereo_44100.wav */; settings = {ASSET_TAGS = (); }; };
 		BC0473A61BC8ABB9002CE57B /* carpool.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC04738E1BC8ABB9002CE57B /* carpool.jpg */; settings = {ASSET_TAGS = (); }; };
 		BC0473A71BC8ABB9002CE57B /* pokemon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC04738F1BC8ABB9002CE57B /* pokemon.jpg */; settings = {ASSET_TAGS = (); }; };
@@ -64,6 +65,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		00D1B26B1BD687F900992F80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00D1B2641BD687F800992F80 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 62287F5914DCBB92B7D00591DB0E02AC;
+			remoteInfo = Firebase;
+		};
+		00D1B26D1BD687F900992F80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00D1B2641BD687F800992F80 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 80A6323D7FCB8875A297AF31FD4B989B;
+			remoteInfo = "Pods-Kashiwade";
+		};
 		BC3AA42C1BB66B8200B6A692 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BC3AA3FE1BB66B8200B6A692 /* Project object */;
@@ -108,6 +123,10 @@
 		000E41891BC9F88F00735CBE /* KashiwadeDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KashiwadeDB.h; sourceTree = "<group>"; };
 		000E418A1BC9F88F00735CBE /* KashiwadeDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KashiwadeDB.m; sourceTree = "<group>"; };
 		008971D21BCA45F800EE0782 /* clap_pin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clap_pin@2x.png"; sourceTree = "<group>"; };
+		00D1B2641BD687F800992F80 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		37B30C06D5265A368C9267FE /* Pods-Kashiwade.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kashiwade.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kashiwade/Pods-Kashiwade.debug.xcconfig"; sourceTree = "<group>"; };
+		A3BC5FAFE68020AC7913C74B /* libPods-Kashiwade.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Kashiwade.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC90A5CFB2B25EEF6DD27BDC /* Pods-Kashiwade.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kashiwade.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kashiwade/Pods-Kashiwade.release.xcconfig"; sourceTree = "<group>"; };
 		BC04738A1BC8ABAC002CE57B /* NoSound_stereo_44100.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = NoSound_stereo_44100.wav; sourceTree = "<group>"; };
 		BC04738E1BC8ABB9002CE57B /* carpool.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carpool.jpg; sourceTree = "<group>"; };
 		BC04738F1BC8ABB9002CE57B /* pokemon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pokemon.jpg; sourceTree = "<group>"; };
@@ -180,6 +199,7 @@
 				BC3AA40C1BB66B8200B6A692 /* CoreGraphics.framework in Frameworks */,
 				BC3AA40E1BB66B8200B6A692 /* UIKit.framework in Frameworks */,
 				BC3AA40A1BB66B8200B6A692 /* Foundation.framework in Frameworks */,
+				6E527E3BC9E245284F3199CF /* libPods-Kashiwade.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +216,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00D1B2651BD687F800992F80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00D1B26C1BD687F900992F80 /* libFirebase.a */,
+				00D1B26E1BD687F900992F80 /* libPods-Kashiwade.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0226C08FC8EAD652988C0303 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37B30C06D5265A368C9267FE /* Pods-Kashiwade.debug.xcconfig */,
+				AC90A5CFB2B25EEF6DD27BDC /* Pods-Kashiwade.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BC04738C1BC8ABB9002CE57B /* media */ = {
 			isa = PBXGroup;
 			children = (
@@ -259,11 +297,13 @@
 		BC3AA3FD1BB66B8200B6A692 = {
 			isa = PBXGroup;
 			children = (
+				00D1B2641BD687F800992F80 /* Pods.xcodeproj */,
 				BCF184D51BBCCA960027AD2E /* AudioKit.xcodeproj */,
 				BC3AA40F1BB66B8200B6A692 /* Kashiwade */,
 				BC3AA42E1BB66B8200B6A692 /* KashiwadeTests */,
 				BC3AA4081BB66B8200B6A692 /* Frameworks */,
 				BC3AA4071BB66B8200B6A692 /* Products */,
+				0226C08FC8EAD652988C0303 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -289,6 +329,7 @@
 				BC3AA40B1BB66B8200B6A692 /* CoreGraphics.framework */,
 				BC3AA40D1BB66B8200B6A692 /* UIKit.framework */,
 				BC3AA4281BB66B8200B6A692 /* XCTest.framework */,
+				A3BC5FAFE68020AC7913C74B /* libPods-Kashiwade.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -392,9 +433,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC3AA4381BB66B8200B6A692 /* Build configuration list for PBXNativeTarget "Kashiwade" */;
 			buildPhases = (
+				D49F4E3A6939E1DA6ADF7147 /* Check Pods Manifest.lock */,
 				BC3AA4021BB66B8200B6A692 /* Sources */,
 				BC3AA4031BB66B8200B6A692 /* Frameworks */,
 				BC3AA4041BB66B8200B6A692 /* Resources */,
+				5AAE40EB1E6DBB8F5B448E0E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -461,6 +504,10 @@
 					ProductGroup = BCF184D61BBCCA960027AD2E /* Products */;
 					ProjectRef = BCF184D51BBCCA960027AD2E /* AudioKit.xcodeproj */;
 				},
+				{
+					ProductGroup = 00D1B2651BD687F800992F80 /* Products */;
+					ProjectRef = 00D1B2641BD687F800992F80 /* Pods.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -471,6 +518,20 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		00D1B26C1BD687F900992F80 /* libFirebase.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFirebase.a;
+			remoteRef = 00D1B26B1BD687F900992F80 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		00D1B26E1BD687F900992F80 /* libPods-Kashiwade.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-Kashiwade.a";
+			remoteRef = 00D1B26D1BD687F900992F80 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		BCF184DC1BBCCA970027AD2E /* libAudioKit iOS Static.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -542,6 +603,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5AAE40EB1E6DBB8F5B448E0E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kashiwade/Pods-Kashiwade-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D49F4E3A6939E1DA6ADF7147 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BC3AA4021BB66B8200B6A692 /* Sources */ = {
@@ -676,6 +770,7 @@
 		};
 		BC3AA4391BB66B8200B6A692 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37B30C06D5265A368C9267FE /* Pods-Kashiwade.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -685,7 +780,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Kashiwade/Kashiwade-Prefix.pch";
 				INFOPLIST_FILE = "Kashiwade/Kashiwade-Info.plist";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -696,6 +794,7 @@
 		};
 		BC3AA43A1BB66B8200B6A692 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC90A5CFB2B25EEF6DD27BDC /* Pods-Kashiwade.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -705,7 +804,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Kashiwade/Kashiwade-Prefix.pch";
 				INFOPLIST_FILE = "Kashiwade/Kashiwade-Info.plist";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";

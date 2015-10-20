@@ -7,12 +7,12 @@
 //
 
 #import "KashiwadeDB.h"
-// #import "NCMB/NCMB.h"
+#import <Firebase/Firebase.h>
 
 @interface KashiwadeDB ()
 {
     NSMutableDictionary* kashiwadeData;
-    NSMutableDictionary* incValue;
+    BOOL is1st;
 }
 @end
 
@@ -29,72 +29,30 @@
 {
     self = [super init];
     if (self != nil) {
-        // [NCMB setApplicationKey:@"1be9dba7dec777026b5832322db9e5882f8e1cd5ed76fb7e45848657aa6c7ad3" clientKey:@"af6b5030e091b942a843f099084821cd911e866622065d8f8c3a57c200f3dc3a"];
         kashiwadeData=[[NSMutableDictionary alloc] init];
         [kashiwadeData setObject:@0 forKey:@"真鶴1"];
         [kashiwadeData setObject:@0 forKey:@"真鶴2"];
         [kashiwadeData setObject:@0 forKey:@"新宿"];
         [kashiwadeData setObject:@0 forKey:@"ビッグサイト"];
         [kashiwadeData setObject:@0 forKey:@"ポケモンセンター"];
-        [self getKashiwadeData];
-        incValue=[[NSMutableDictionary alloc] init];
-        [incValue setObject:@0 forKey:@"真鶴1"];
-        [incValue setObject:@0 forKey:@"真鶴2"];
-        [incValue setObject:@0 forKey:@"新宿"];
-        [incValue setObject:@0 forKey:@"ビッグサイト"];
-        [incValue setObject:@0 forKey:@"ポケモンセンター"];
-        [NSTimer
-         scheduledTimerWithTimeInterval:30.0f
-         target:self
-         selector:@selector(sync:)
-         userInfo:nil
-         repeats:YES
-        ];
+        Firebase *myRootRef = [[Firebase alloc] initWithUrl:@"https://kashiwade.firebaseio.com"];
+        is1st=YES;
+        [myRootRef observeEventType:FEventTypeValue withBlock:^(FDataSnapshot *snapshot) {
+           for (id key in [snapshot.value keyEnumerator]) {
+               NSLog(@"Key:%@ Value:%@", key, snapshot.value[key][@"count"]);
+               NSLog(@"Key:%@ Value:%@", key, kashiwadeData[key]);
+               if (snapshot.value[key][@"count"]!=kashiwadeData[key]) {
+                   [kashiwadeData setObject:snapshot.value[key][@"count"] forKey:key];
+                   if (is1st) continue;
+                   [[NSNotificationCenter defaultCenter] postNotificationName:@"DataUpdated"
+                                                                    object:self
+                                                                     userInfo:@{@"key":key}];
+               }
+            }
+            is1st=NO;
+        }];
     }
     return self;
-}
-
-- (void)getKashiwadeData
-{
-    // NCMBQuery *query = [NCMBQuery queryWithClassName:@"kashiwade"];
-    // for (id key in kashiwadeData) {
-    //     [query whereKey:@"title" equalTo:key];
-    //     [query findObjectsInBackgroundWithBlock:^(NSArray *posts, NSError *error) {
-    //         for (NCMBObject *post in posts) {
-    //             [kashiwadeData setObject:[post objectForKey:@"num"] forKey:key];
-    //             // 再取得
-    //             [post refresh:nil];
-    //         }
-    //     }];
-    // }
-}
-
-- (void)sync:(NSTimer*)timer
-{
-    // NCMBQuery *query = [NCMBQuery queryWithClassName:@"kashiwade"];
-    // for (id key in kashiwadeData) {
-    //     [query whereKey:@"title" equalTo:key];
-    //     [query findObjectsInBackgroundWithBlock:^(NSArray *posts, NSError *error) {
-    //         for (NCMBObject *post in posts) {
-    //             int num=[[post objectForKey:@"num"] intValue];
-    //             int inc= [[incValue objectForKey:key] intValue];
-    //             int cur=[self getNum:key];
-    //             if (num==cur&&inc==0) continue;
-    //             num+=inc;
-    //             [kashiwadeData setObject:[NSNumber numberWithInt:num] forKey:key];
-    //             [incValue setObject:@0 forKey:key];
-    //             [post setObject:[NSNumber numberWithInt:num] forKey:@"num"];
-    //             [post saveInBackgroundWithBlock:nil];
-
-    //             [[NSNotificationCenter defaultCenter] postNotificationName:@"DataUpdated"
-    //                                                                 object:self
-    //                                                               userInfo:@{@"key":key}];
-                 
-    //             // 再取得
-    //             [post refresh:nil];
-    //         }
-    //     }];
-    // }
 }
 
 - (int)getNum:(NSString*)key
@@ -106,10 +64,10 @@
 {
     int num=[self getNum:key];
     num++;
-    [kashiwadeData setObject:[NSNumber numberWithInt:num] forKey:key];
-    int inc= [[incValue objectForKey:key] intValue];
-    inc++;
-    [incValue setObject:[NSNumber numberWithInt:inc] forKey:key];
+    [kashiwadeData setObject:[NSNumber numberWithInteger:num] forKey:key];
+    Firebase *myRootRef = [[Firebase alloc] initWithUrl:@"https://kashiwade.firebaseio.com"];
+    // Write data to Firebase
+    [[myRootRef childByAppendingPath:key] setValue:@{@"count":[NSNumber numberWithInteger:num]}];
     return num;
 }
 + (int)getNum:(NSString*)key
