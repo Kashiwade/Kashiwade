@@ -117,6 +117,15 @@
 	*/
 }
 
+// マイク入力
+- (void)setAudioInputEnabled:(BOOL)audioInputEnabled
+{
+	AKSettings.shared.audioInputEnabled = audioInputEnabled;
+}
+
+////////////////////////////////////////////////////////////////
+#pragma mark -
+
 - (void)prepareclap:(NSString *)strImpulse
 {
     AKInstrumentProperty* loopgain = [self createPropertyWithValue:0.08 minimum:0.0 maximum:1.0];

@@ -197,6 +197,9 @@
 //	[UIApplication sharedApplication].statusBarHidden = YES;
 	[self.navigationController setNavigationBarHidden:NO animated:NO];
 	[self.navigationController setToolbarHidden:YES animated:NO];
+	
+	// マイク入力を明示的にオン
+	[_conv setAudioInputEnabled:YES];
 }
 
 - (void)viewDidAppear:(BOOL)animated
@@ -217,6 +220,9 @@
 
 - (void)viewDidDisappear:(BOOL)animated
 {
+	// マイク入力をオフ
+	[_conv setAudioInputEnabled:NO];
+	
 	[super viewDidDisappear:animated];
 }
 

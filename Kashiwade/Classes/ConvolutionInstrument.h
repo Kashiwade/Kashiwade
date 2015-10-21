@@ -20,6 +20,8 @@
 - (void)setFiles:(NSString *)strSrc impulseL:(NSString *)strImpulseL impulseR:(NSString *)strImpulseR bgm:(NSString *)strBgm;
 - (void)setFiles:(NSString *)strSrc impulse:(NSString *)strImpulse bgm:(NSString *)strBgm;
 
+- (void)setAudioInputEnabled:(BOOL)audioInputEnabled;
+
 - (void)prepareclap:(NSString *)strImpulse;
 - (void)clap;
 
