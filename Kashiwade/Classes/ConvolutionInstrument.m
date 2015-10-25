@@ -69,10 +69,10 @@
 - (void)setFiles:(NSString *)strSrc impulse:(NSString *)strImpulse bgm:(NSString *)strBgm
 {
 	// INPUTS AND CONTROLS
-//	_dishWellBalance = [self createPropertyWithValue:0.0 minimum:0.0 maximum:1.0];
-	_dishWellBalance = [self createPropertyWithValue:0.5 minimum:0.0 maximum:1.0];
 //	_dryWetBalance   = [self createPropertyWithValue:0.0 minimum:0.0 maximum:0.1];
 	_dryWetBalance   = [self createPropertyWithValue:0.01 minimum:0.0 maximum:0.1];
+//	_dishWellBalance = [self createPropertyWithValue:0.0 minimum:0.0 maximum:1.0];
+	_dishWellBalance = [self createPropertyWithValue:0.5 minimum:0.0 maximum:4.0];
 	
 	// インパルス応答
 	AKAudioInput *audioInput = [[AKAudioInput alloc] init];
