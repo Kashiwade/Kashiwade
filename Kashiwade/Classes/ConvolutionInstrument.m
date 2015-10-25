@@ -128,7 +128,7 @@
 
 - (void)prepareclap:(NSString *)strImpulse
 {
-    AKInstrumentProperty* loopgain = [self createPropertyWithValue:0.08 minimum:0.0 maximum:1.0];
+    AKInstrumentProperty* loopgain = [self createPropertyWithValue:0.035 minimum:0.0 maximum:0.035];
     NSString *file=[[NSBundle mainBundle] pathForResource:@"kashiwade" ofType:@"wav"];
     AKSoundFileTable *fileTable = [[AKSoundFileTable alloc] initWithFilename:file];
     AKStereoSoundFileLooper* filelooper=[AKStereoSoundFileLooper looperWithSoundFile:fileTable];
