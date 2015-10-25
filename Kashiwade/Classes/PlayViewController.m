@@ -38,6 +38,11 @@
 {
     [super viewDidLoad];
 	
+	// スワイプで戻るを無効にする
+	if ([self.navigationController respondsToSelector:@selector(interactivePopGestureRecognizer)]) {
+		self.navigationController.interactivePopGestureRecognizer.enabled = NO;
+	}
+	
 	self.view.backgroundColor = [UIColor whiteColor];
 	
 	CGFloat fWidth = [[UIScreen mainScreen] bounds].size.width;
