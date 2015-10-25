@@ -31,8 +31,8 @@
 
 // !!!: 追加するときはここを修正
 #define ARRAY_GMS_MARKER_TITLE (@[@"真鶴1", @"真鶴2", @"新宿", @"ビッグサイト", @"ポケモンセンター"])
-static const double LATITUDE[] = {35.0, 35.1598865, 35.7015253, 35.6295764, 35.5571491};
-static const double LONGTIDE[] = {139.0, 139.1359808, 139.7092071, 139.794686, 139.6949123};
+static const double LATITUDE[] = {35.11, 35.1598865, 35.7015253, 35.6295764, 35.5571491};
+static const double LONGTIDE[] = {139.05, 139.1359808, 139.7092071, 139.794686, 139.6949123};
 
 #define ARRAY_INPUT_FILE (@[@"808loop", @"808loop", @"808loop", @"808loop", @"808loop"])
 #define ARRAY_IMPULSE_L (@[@"rooftop_IR-9_L", @"carpool_IR-9_L", @"bktk-shinjuku-01_03may09_44116mono", @"TokyoBigSite_IR-9_L", @"pokemon _IR-9_L"])
